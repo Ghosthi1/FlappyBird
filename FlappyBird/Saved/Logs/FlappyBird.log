@@ -1377,3 +1377,916 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.11.15-23.13.14:387][ 16]LogFab: Display: User logged in
 [2024.11.15-23.13.14:387][ 16]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2024.11.15-23.13.15:053][ 18]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-LexAcUgJrEe30Uwk8KnyJg-uGEzy09hLE-SAjiyntzVXg]
+[2024.11.15-23.13.52:472][834]LogChaosDD: Creating Chaos Debug Draw Scene for world World_0
+[2024.11.15-23.14.04:378][ 45]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.11.15-23.14.04:378][ 45]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2024.11.15-23.14.04:381][ 45]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_18C04DD9DD69CB2F02_1998548855
+[2024.11.15-23.14.04:382][ 45]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_18C04DD9DD69CB2F02_1998548855
+[2024.11.15-23.14.24:951][268]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2024.11.15-23.14.24:951][268]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2024.11.15-23.14.24:954][268]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Temp/Untitled_1.Untitled_1:PersistentLevel.CameraActor_UAID_18C04DD9DD69CB2F02_2019120856
+[2024.11.15-23.14.24:954][268]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Temp/Untitled_1.Untitled_1:PersistentLevel.CameraActor_UAID_18C04DD9DD69CB2F02_2019120856
+[2024.11.15-23.14.24:970][268]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
+[2024.11.15-23.15.06:937][264]LogDerivedDataCache: C:/Users/c-for/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.280 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4009 files in 5581 folders with total size 372 MiB.
+[2024.11.15-23.15.12:540][682]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2024.11.15-23.15.31:809][186]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.11.15-23.15.31:809][186]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.11.15-23.15.31:810][186]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_18C04DD9DD69CB2F02_2085978857
+[2024.11.15-23.15.31:810][186]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Temp/Untitled_1.Untitled_1:PersistentLevel.StaticMeshActor_UAID_18C04DD9DD69CB2F02_2085978857
+[2024.11.15-23.16.00:868][483]Cmd: SELECT NONE
+[2024.11.15-23.16.44:052][968]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.11.15-23.16.44:059][968]LogSlate: Window 'Editor Preferences' being destroyed
+[2024.11.15-23.17.07:114][ 89]LogSlate: Window 'Save Level As' being destroyed
+[2024.11.15-23.17.07:234][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map" FILE="C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.15-23.17.07:316][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.15-23.17.07:323][ 89]LogSavePackage: Moving output files for package: /Game/Map
+[2024.11.15-23.17.07:323][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MapD3FB746442D02C622720A49FE5EB6578.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/Map.umap'
+[2024.11.15-23.17.07:394][ 89]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Map_HLOD0_Instancing
+/Game/__ExternalActors__/Map/5/PN/679A47FIAS5NIV6T6OABSZ
+/Game/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1
+/Game/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B
+/Game/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG
+/Game/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6
+/Game/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4
+/Game/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS
+/Game/__ExternalActors__/Map/9/WS/QX4C0DOFI76YCSAYNO5JQE
+/Game/__ExternalActors__/Map/4/IQ/KU2P0B5S35RKRJFG045BGU
+/Game/__ExternalActors__/Map/2/4R/RQ87O5DWV1GS3RM83S87ER
+/Game/__ExternalActors__/Map/0/04/GXGCZBGQIT6XOIC2YMCA7Y
+/Game/__ExternalActors__/Map/4/DK/E33MPSK7Y43XTDGO8QS1RE
+/Game/__ExternalActors__/Map/5/XN/7HQAL0TRFJP5JVHT0P65QE
+/Game/__ExternalActors__/Map/C/A6/4GAGL02KME4WKDV2QV6BZY
+/Game/__ExternalActors__/Map/8/9T/EMNDYTIV2ER8WSS8BD6EBZ
+/Game/__ExternalActors__/Map/C/80/YMNYIN8O1DQIBPX0Z48GFK
+/Game/__ExternalActors__/Map/7/AA/VQXSQJQSNBQTG1ZXKITNOW
+/Game/__ExternalActors__/Map/A/CW/VP8XOF1ZIZ9XTB0YHCY1JZ
+/Game/__ExternalActors__/Map/6/AN/XC4LASUJDOS1WZEH14CVIY
+/Game/__ExternalActors__/Map/D/6C/T84FMNLLAK0KC7KWY38PP5
+/Game/__ExternalActors__/Map/5/LZ/DKEDVXQ4EXND5KFSD4YMCC
+/Game/__ExternalActors__/Map/E/5W/85JFAHRIBCHECAUYBS52A2
+/Game/__ExternalActors__/Map/6/6I/RVJ5TN14WZKMGHEEPHZ4NV
+/Game/__ExternalActors__/Map/D/JD/ROBGTJ7D13UMZR7GWUOWVG
+/Game/__ExternalActors__/Map/A/JH/B2XZ1MQA64FMRSZQPHP7TH
+/Game/__ExternalActors__/Map/4/UL/11ZYTYTC2EV89QGZE3ILJI
+/Game/__ExternalActors__/Map/9/QH/OJZ5KGC0RUNUES28JGDRRU
+/Game/__ExternalActors__/Map/A/CL/OEC6CWQQBTHJZ5SMC6AZQF
+/Game/__ExternalActors__/Map/8/2I/2W1NXZ2CCKAQ9O5XETKC31
+/Game/__ExternalActors__/Map/E/03/VL5J2ISCHVB4E8AWWX2N73
+/Game/__ExternalActors__/Map/1/UN/HGTODXDC2O1HWZRYYXJDWE
+/Game/__ExternalActors__/Map/7/Q4/P0NKG51JRER9B7WG1PGKI3
+/Game/__ExternalActors__/Map/5/QC/0Q19D74XXHXWZ6T2OMQ0FU
+/Game/__ExternalActors__/Map/D/K5/1YYFA62TW3XM69BUOPP3RI
+/Game/__ExternalActors__/Map/3/J4/VNYQ9LGJA1EA0GFLNZHLLA
+/Game/__ExternalActors__/Map/3/7U/NWAF2EXZHC9V443SOVX96J
+/Game/__ExternalActors__/Map/4/W2/XWSOP3RAXUVMNKNSIJ07EV
+/Game/__ExternalActors__/Map/E/4Q/KNMT73ZN0DN0DV8F1OPWK7
+/Game/__ExternalActors__/Map/E/4M/BK6Y93SN9LDAXUMBKT701S
+/Game/__ExternalActors__/Map/9/0Y/565FMOSHV5TPZ5E2DI88SE
+/Game/__ExternalActors__/Map/8/X5/ZRZKCZEJCOK5GVABFDZFYF
+/Game/__ExternalActors__/Map/0/W6/1XDV3S0ZY4DFZ0AYUEDC4V
+/Game/__ExternalActors__/Map/A/QS/MDP1ZOU1GLS16HZ1DK7B4P
+/Game/__ExternalActors__/Map/C/PC/BVKMJ8915U2LQO7K6FTHBA
+/Game/__ExternalActors__/Map/7/10/ZATGH84UOQKZ15WMTUYNKZ
+/Game/__ExternalActors__/Map/6/XA/AJ9CX7D6H6384NZMEXQ6I2
+/Game/__ExternalActors__/Map/7/32/Z7Z992PM3V5LF0FCSQ5NGL
+/Game/__ExternalActors__/Map/D/3Z/RVSK18RI3EX9RR6YL2Y3WY
+/Game/__ExternalActors__/Map/D/0P/99RBU14ZFZ5FTRCKDA5FR0
+/Game/__ExternalActors__/Map/7/AI/U9RJW328N60Q0NHVC9VOWZ
+/Game/__ExternalActors__/Map/1/V5/6ZZ8VADNTPCIAIQUDAZI7H
+/Game/__ExternalActors__/Map/6/9E/0NHG3CUM35B85P5IGHOX6K
+/Game/__ExternalActors__/Map/9/F0/QBKBVVXD1UPGAYW2Z3QMND
+/Game/__ExternalActors__/Map/5/XD/DXMB06G1JLUSJZA014S2WZ
+/Game/__ExternalActors__/Map/4/DH/YRCT0MC14LRMZ6JZ1LVAT0
+/Game/__ExternalActors__/Map/A/3C/BTZN9DYT5MX5M89TM22K92
+/Game/__ExternalActors__/Map/0/QG/6SPY00BH3MKMLZKSORNKUJ
+/Game/__ExternalActors__/Map/3/JA/MOTMDFD1POA6BUR2I5TBYY
+/Game/__ExternalActors__/Map/E/T6/A572CY7HDMFD8DTARO64XO
+/Game/__ExternalActors__/Map/3/HO/38BJ8O90S6O9IN5RHBN70K
+/Game/__ExternalActors__/Map/4/7Z/WPEAWR3YEUIDDF8L1L5EWH
+/Game/__ExternalActors__/Map/1/6L/TMKCBBKM8KMSV8C32IGH0Q
+/Game/__ExternalActors__/Map/2/C9/X6HBSFDC97YEDR95OKQZDZ
+/Game/__ExternalActors__/Map/5/43/HR8T8YWN6NBRXD8HKW4BO0
+/Game/__ExternalActors__/Map/6/7D/ZYD898LDUQL87P4N61A900
+/Game/__ExternalActors__/Map/A/QB/D8MJSWQ44Q3FBFCHCS719H
+/Game/__ExternalActors__/Map/0/0F/AP0QJU5IK0USI7V0GRYKDM
+/Game/__ExternalActors__/Map/A/7E/743R53ALHD6FAEHQL3K4GY
+/Game/__ExternalActors__/Map/0/42/PTCPZFXNU43F212UZ7XH16
+/Game/__ExternalActors__/Map/C/94/1QTZ2XZ7SHR0W4CGOY710R
+/Game/__ExternalActors__/Map/7/OE/WNMQJLYENL8W30LV0MR95K
+/Game/__ExternalActors__/Map/9/0S/C5CZWG9Y1D0YAV4YMBOSNX
+/Game/__ExternalActors__/Map/7/U0/DATNQZ7SQWPBLOR1C7D4XD
+/Game/__ExternalActors__/Map/D/A1/YMYLCGN8S5YZMNMNYKESJZ
+/Game/__ExternalActors__/Map/7/0K/V4PX8NV6D7C0SHGQC1G2Y5
+/Game/__ExternalActors__/Map/3/ZK/YGBAY0IN3DUZ477X8KUQGF
+/Game/__ExternalActors__/Map/8/W2/JDGIJ9RP5IFGXH8TF10ZWR
+/Game/__ExternalActors__/Map/A/29/H08A5HJQ4ZIZLHB1LXNIFZ
+/Game/__ExternalActors__/Map/8/XM/R14ML0CYVT0201G7BJNF84
+/Game/__ExternalActors__/Map/D/IN/HB1D6AXUH8NQSZ1VR2T37L
+/Game/__ExternalActors__/Map/E/FF/MA8GS3VLNXK9J8F8U9PBKC
+/Game/__ExternalActors__/Map/3/XR/2BWLHU4O3CLBGO8ZXRIRNG
+/Game/__ExternalActors__/Map/D/UX/3X46MGBYLKX0HGFGQ36Z69
+/Game/__ExternalActors__/Map/1/T6/A9ITE0LTNEHY9CDTMMG0VT
+/Game/__ExternalActors__/Map/A/0F/DKLO7C1FBD4SCOQ1AMG4ET
+/Game/__ExternalActors__/Map/D/DF/H5YX22U0AMCPUB45KCF2CJ
+/Game/__ExternalActors__/Map/2/3R/JONEVLHYPF92B7LFF5SWJH
+/Game/__ExternalActors__/Map/6/PB/7XAQTKWNILFOESGEWMOK7S
+/Game/__ExternalActors__/Map/2/AT/Q3KO5SL5FB1ZMUZU0O5ODS
+/Game/__ExternalActors__/Map/1/DC/Q6QL1BJ8H86YMUDYXE769V
+/Game/__ExternalActors__/Map/B/ST/34MRUQVURK1YJ5233DYGK6
+/Game/__ExternalActors__/Map/5/C5/2KHBJQGFH76AG87YY3HABQ
+/Game/__ExternalActors__/Map/D/YN/K47T0F67A34AN06DMPUVLL
+/Game/__ExternalActors__/Map/6/3K/MSQC9BQN6KYNLML01U076H
+/Game/__ExternalActors__/Map/0/6Z/N9FM9MOY57FKAK2VU5GDU4
+/Game/__ExternalActors__/Map/5/23/TLKH2MJMDEL6WVID1MVL1J
+/Game/__ExternalActors__/Map/A/2X/O8Y5RH1ARBZJDGJKSWTO7E
+/Game/__ExternalActors__/Map/1/ZE/R3G1M08KZBUPS6QC2DI7SC
+/Game/__ExternalActors__/Map/9/HM/WPRUG6LH79UMCZOXPVMMI3
+/Game/__ExternalActors__/Map/B/DJ/D0KB8DKG79S1LU72XH1M1F
+/Game/__ExternalActors__/Map/8/U1/1WK0OZQ3A2T3JL3ISQQOAB
+/Game/__ExternalActors__/Map/C/N1/P5KXCBQODTZQRVHPIAPC7A
+/Game/__ExternalActors__/Map/7/8S/STMSF8VHTVJIYH10P5CS2U
+/Game/__ExternalActors__/Map/4/L2/3KQUQ2GZS9QWGRAHO2Y5OT
+/Game/__ExternalActors__/Map/B/O5/ZLD257B2OLB6OJG60FJRW1
+/Game/__ExternalActors__/Map/1/IV/SV876PM04Z51ZVMXP17Y9N
+/Game/__ExternalActors__/Map/2/N6/NJRH2L7AX8PTQ8WN21GMP2
+/Game/__ExternalActors__/Map/1/1Y/JMM7FF8TDEJWLW8UDL6AWQ
+/Game/__ExternalActors__/Map/2/YJ/GF3X350U2DL7E2C02HQPC3
+/Game/__ExternalActors__/Map/D/B5/CAJR4N32IXRCBNOW3UTM5G
+/Game/__ExternalActors__/Map/A/7H/IO1AZGH8ZVBDF2JUUM5WA3
+/Game/__ExternalActors__/Map/8/KM/MRYAD0XG0RHAMHPD8WWJH3
+/Game/__ExternalActors__/Map/2/9N/JSF0WJW6CXIOWNXN1Y6P44
+/Game/__ExternalActors__/Map/0/WP/LN60SUHBCXMEHLIOS4P9WM
+/Game/__ExternalActors__/Map/3/MB/4WA589Y037UZZDRDBQCXK2
+/Game/__ExternalActors__/Map/C/M4/JID9HWLRVRPL7K2PQ9OEQW
+/Game/__ExternalActors__/Map/2/I7/M7Z0U0PLPG1D7CO2FIKW6O
+/Game/__ExternalActors__/Map/C/A2/UPIFTCOKAHGQ70AGV1HHHX
+/Game/__ExternalActors__/Map/B/YB/5ZUVYXNC7I4DXAOQA6I9RX
+/Game/__ExternalActors__/Map/D/V7/BHTSHPY259KDLCYM175KMI
+/Game/__ExternalActors__/Map/E/N1/BN1SYHOTEGTWTE15Q49HC2
+/Game/__ExternalActors__/Map/2/MA/PFRQ2UPJWUBWO2SQ4FMQOV
+/Game/__ExternalActors__/Map/B/3V/HQV296XZCHS6L4EW2E1BRC
+/Game/__ExternalActors__/Map/A/B2/NII7STKIZJO5PPM79QVXT7
+/Game/__ExternalActors__/Map/6/CW/3IZNG9VIE1J85PMJ1H6HZO
+/Game/__ExternalActors__/Map/9/PN/OECG0Z4FPKEAM3E5H964WE
+/Game/__ExternalActors__/Map/0/DM/188A2BQ1RIE7Z60Z9W4QOZ
+/Game/__ExternalActors__/Map/3/IB/M1LIDM3AJW0D1OHK2LTGZO
+/Game/__ExternalActors__/Map/4/L6/UFSX52JZKLBS8GBECAPWA1
+/Game/__ExternalActors__/Map/3/U0/XR04PZJ85DX61CHE80X17S
+/Game/__ExternalActors__/Map/0/18/OP2NSNORVY8O8RU2LW15GE
+/Game/__ExternalActors__/Map/9/EQ/OWXOD7NCBXFF3SOUI26SYE
+/Game/__ExternalActors__/Map/6/HK/9AIGMHR38U2AU774AUCSUL
+/Game/__ExternalActors__/Map/0/4O/42606ZKWDO1B5ISBZV3TI3
+/Game/__ExternalActors__/Map/9/AV/I7CTNBNK6GPOJT8ENHYVS0
+/Game/__ExternalActors__/Map/7/4P/8Y7CB8GPCCCEG8B2DTA9T7
+/Game/__ExternalActors__/Map/6/6Y/ZB9YYBLVXU2NREKEGR6QY2
+/Game/__ExternalActors__/Map/2/43/YCYK8EOQZOIAMBM25IMBBV
+/Game/__ExternalActors__/Map/B/9R/1AT9HBE0NGZW87RHLNINVA
+/Game/__ExternalActors__/Map/2/TO/3355T0FAP6MPTO7LJJZK35
+/Game/__ExternalActors__/Map/8/TF/CVVVGMNQ8YTPWNIVERH6U7
+/Game/__ExternalActors__/Map/D/NS/BE73VODIKSF2A7LF3NUJAB
+/Game/__ExternalActors__/Map/C/18/845BPB85178O88Q19GTVMR
+/Game/__ExternalActors__/Map/E/L7/L414OZY3ZTO7JYLF1LFUPW
+/Game/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE
+/Game/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L
+/Game/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q
+/Game/__ExternalActors__/Map/9/P6/MET8CF70WUALRGMHQZ2UXV
+/Game/__ExternalActors__/Map/0/68/4XJOM5J1Q0E4XF4EAAB2DZ
+/Game/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5
+/Game/__ExternalObjects__/Map/3/YS/W491ANMNS0MI6O8IVMIXZX
+/Game/__ExternalObjects__/Map/A/5V/L44JLS0X0D0XEXWQKZ1X92
+/Game/__ExternalObjects__/Map/1/XT/Q5RB8KZARTCU3I3LBEMTGN
+/Game/__ExternalObjects__/Map/A/LS/CHBFQA0TC4D6C5W2IBW4ZM
+/Game/__ExternalObjects__/Map/E/88/1W6ETHC1W5BJ1F24QDWGE0
+/Game/__ExternalObjects__/Map/D/2L/MICTNQ9QDJHHPW79Y61T7H
+/Game/__ExternalObjects__/Map/C/MT/ZBFZYJJ9Q538TNRIPS8X1Z
+/Game/__ExternalObjects__/Map/0/Y7/K0QC16I5OC9SY0X6CKOXLH
+/Game/__ExternalObjects__/Map/5/QI/M6BCMBD8EYX8I6R8DSM82X
+/Game/__ExternalObjects__/Map/9/ZX/8KMJ2SV51K7RSEHGF4WPIB
+/Game/__ExternalObjects__/Map/7/LI/4Q23UT2BP3M8JGK15SDKZM
+/Game/__ExternalObjects__/Map/8/Z4/MJCBDUP6BDPB44RCWXXHHG
+/Game/__ExternalObjects__/Map/2/CU/2RL8DRHDJA88BXI0UTP3FD
+/Game/__ExternalObjects__/Map/C/3Y/Y6YVW75MURBH6T9TJWW8QI
+/Game/__ExternalObjects__/Map/C/HS/JROHEAVUCV05C92Y5RF92R
+/Game/__ExternalObjects__/Map/A/S8/RSCCJBJLK8VDLGOBZMGSX5
+/Game/__ExternalObjects__/Map/0/TM/GRZE4VMN2FXSSNWNFEHAWS
+/Game/__ExternalObjects__/Map/C/KU/8AUP7Y1EVEIBSC7MEE401P
+/Game/__ExternalObjects__/Map/E/49/LB686G8RVLNOKKVMBZC1LF
+/Game/__ExternalObjects__/Map/2/UU/4M4ZS160VG6J58UZM2PA38
+/Game/__ExternalObjects__/Map/B/32/6CK373SJMKUMG7R1KD82KR
+/Game/__ExternalObjects__/Map/0/7Q/RSMNGSK2RPF1WA2WWF3GM2
+/Game/__ExternalObjects__/Map/5/UD/OVIF6IMI15U3Q48USJU2VW
+/Game/__ExternalObjects__/Map/6/YI/8AISYEZFX22JRK7OZ9IVFK
+/Game/__ExternalObjects__/Map/D/FI/IRUWTB9IUDHN290P37PANG
+/Game/__ExternalObjects__/Map/B/D9/ORQ9QE1DVJEWK9DAT5Z5YO
+/Game/__ExternalObjects__/Map/1/B6/50NYP140992WSI0E1P5DJ7
+/Game/__ExternalObjects__/Map/7/50/89KW1MPKN5QNREM7XG07JO
+/Game/__ExternalObjects__/Map/A/LR/1T8VJCEX0JJEHPSK3PD3OC
+/Game/__ExternalObjects__/Map/C/UK/VEDDZU6LJQKF7EHT3EX6K9
+/Game/__ExternalObjects__/Map/2/X0/IKBC46HKAZVYSB30AW56RA
+/Game/__ExternalObjects__/Map/0/L4/BO6PNT4X7BWHUDWS588VUB
+/Game/__ExternalObjects__/Map/1/PS/0DCCOG69TLNH9FDC2ZA3K2
+/Game/__ExternalObjects__/Map/A/KJ/CNCIUO01XYIL9U1BO9JBAD
+/Game/__ExternalObjects__/Map/0/ZG/PMJ4NI278R12J4JULSPG19
+/Game/__ExternalObjects__/Map/5/DA/7YHGM5S9ZPWJK523PAV27W
+/Game/__ExternalObjects__/Map/0/WU/2ZXVLMNF2ZJ6MEDUM6FHUZ
+/Game/__ExternalObjects__/Map/B/08/AW10IMCGI32QNNMDCTC0CD
+/Game/__ExternalObjects__/Map/1/L4/3MROQBQDGRGIA1LD6DAYTY
+/Game/__ExternalObjects__/Map/0/CL/HE31GDW6YZKNU6OZOEKINB
+/Game/__ExternalObjects__/Map/6/SR/CHF6QEW7I4U3Y8VI6MZN0R
+/Game/__ExternalObjects__/Map/A/D6/O1JXOP6XGJSLNY0EHP4QXM
+/Game/__ExternalObjects__/Map/D/EL/7030I349NQ58RIWCR33CRB
+/Game/__ExternalObjects__/Map/8/G3/1AB90UFM5BJRN0AKSX6L3P
+/Game/__ExternalObjects__/Map/E/04/D9J7XBFOHNALVKF29TTNO5
+/Game/__ExternalObjects__/Map/1/EA/RPNFOOO527MFXQ2UE81KQY
+/Game/__ExternalObjects__/Map/B/JG/R4E20SVWEJTQ64CAX0L5LS
+/Game/__ExternalObjects__/Map/7/BT/E048RSZORWP9ZH523KD8HH
+/Game/__ExternalObjects__/Map/E/6P/YXRVEN1IEVXRQ2DX8N2AY0
+/Game/__ExternalObjects__/Map/E/JO/18JL1A2S9N87J0CJKTFQGQ
+/Game/__ExternalObjects__/Map/9/HO/5VUORCVKR2EWJWLAOHE7BA
+/Game/__ExternalObjects__/Map/B/0I/0HWSRQAGTWQ13S1LUZRMBU
+/Game/__ExternalObjects__/Map/3/JC/HMXB52U0B45DGHRE7M7RMX
+/Game/__ExternalObjects__/Map/1/LQ/A90KG6B2V5EX6J6OMBD69C
+/Game/__ExternalObjects__/Map/C/9B/5Q2WV78V4GVXUJGV94DC5I
+/Game/__ExternalObjects__/Map/5/CS/P49CDG8YE4R2I2X2PAOZ8B
+/Game/__ExternalObjects__/Map/1/DO/8AYWC7NSYS1PTJ4A37Q191
+/Game/__ExternalObjects__/Map/8/MF/VXQ9NM4SM57WJDNK0P6OV9
+/Game/__ExternalObjects__/Map/1/I6/YQUKJ3SX7TRQN0E7DGYK5Y
+/Game/__ExternalObjects__/Map/A/PP/9DVTZIH8CGGMDVZYFS4C7W
+/Game/__ExternalObjects__/Map/6/B2/BJ16A7IZEFYAWOJPHPSE83
+/Game/__ExternalObjects__/Map/A/GG/D7JXGI2KGR788RUC92G34V
+/Game/__ExternalObjects__/Map/8/OO/BNU55F0CLCGB3ZNRPJJ6SW
+/Game/__ExternalObjects__/Map/D/IG/KVAAF6TO6GXKNT86XO8QH4
+/Game/__ExternalObjects__/Map/B/DR/CCIYKL60J2UJZTHNV2VXGP
+/Game/__ExternalObjects__/Map/7/RH/RHQSQQWFUN08HAG962YPKJ
+/Game/__ExternalObjects__/Map/1/AF/TF2FE5F80QSPQE8HZY7R6W
+/Game/__ExternalObjects__/Map/7/0L/QMXG3JZIPE7YTT2HLYUEGU
+/Game/__ExternalObjects__/Map/1/TI/J9XQX2FR5XLOEOHHFGVZOV
+/Game/__ExternalObjects__/Map/D/5K/9FV02IT40LD7UQRCNBEF1L
+/Game/__ExternalObjects__/Map/9/D7/VQ7BC4FHN7LIZIZZLZGLVL
+/Game/__ExternalObjects__/Map/0/BV/ZCASZLLECNAKR4K3HHM1PX
+/Game/__ExternalObjects__/Map/0/6V/KQOW7ZF0QHMAUADO7YCTMJ
+/Game/__ExternalObjects__/Map/7/SC/VRW3XDPPG51GP01UTLY0OU
+/Game/__ExternalObjects__/Map/3/2S/6DA5C6SRS59E1VR4BZKG7Q
+/Game/__ExternalObjects__/Map/2/QH/27DMPQ8FS21UC1K56FS65A
+/Game/__ExternalObjects__/Map/B/9W/326JB2A7Q5D2MNX87JHIN5
+/Game/__ExternalObjects__/Map/7/UC/0FFTK4B1CMAYZP9LMOKXBA
+/Game/__ExternalObjects__/Map/E/U1/D407S4N4SRC21EOK0FIZ38
+/Game/__ExternalObjects__/Map/9/94/KG0VWAB99BTZMS85KHWY0C
+/Game/__ExternalObjects__/Map/6/LR/VR9MT58JM4XEXKD0Y1JRAC
+/Game/__ExternalObjects__/Map/D/LP/AMPOIVLRDPMWIWLSN7Y5IL
+/Game/__ExternalObjects__/Map/9/R5/UXUP5UTW17XQIL6HMYIL39
+/Game/__ExternalObjects__/Map/0/LL/3YEXJYP4OW8XYPQF8XM8D5
+/Game/__ExternalObjects__/Map/3/8I/373JOCDTV9LWH5QHQEK0ZH
+/Game/__ExternalObjects__/Map/7/O3/8OYI12D8DH8DLVPOEUX6PS
+/Game/__ExternalObjects__/Map/A/QF/9EX5CFMT4KP85NAOBW5GD7
+/Game/__ExternalObjects__/Map/2/NH/2GT7BBKVUFYT9W6XCKSRDN
+/Game/__ExternalObjects__/Map/B/7P/BOR9RPECR1HF6XLPB7QBA2
+/Game/__ExternalObjects__/Map/A/PL/2MWAO5N0UWQMOV6WTBOSDH
+/Game/__ExternalObjects__/Map/D/2M/D5O1084GJQLZ8D4EXYEF14
+/Game/__ExternalObjects__/Map/6/NU/3COCZG0JTIL19XHKLX96XQ
+/Game/__ExternalObjects__/Map/C/JN/0RRGCQDYYW5XX2PYQ0UA3M
+/Game/__ExternalObjects__/Map/9/JY/06HATYMHY9K46VP0ZKNPCF
+/Game/__ExternalObjects__/Map/3/9M/1M5MSM6PLF6ZGOTFK6G49S
+/Game/__ExternalObjects__/Map/4/H4/TILTU112PKANKKD124LI0E
+/Game/__ExternalObjects__/Map/5/BA/K3ZZD685X19DH8CRCP0PVP
+/Game/__ExternalObjects__/Map/8/F1/68DOE9K0F2I4ZYBC1LCS6K
+/Game/__ExternalObjects__/Map/1/15/AGDG3COXEJFFG21X53U1KJ
+/Game/__ExternalObjects__/Map/7/1U/EW2ZR5ARTIZOIG1J4CJ2E5
+/Game/__ExternalObjects__/Map/9/LR/0F3OHKUGJ5YDZ4674Y2IHY
+/Game/__ExternalObjects__/Map/7/Q6/RFPKPQEW6KIOEXWC7213IW
+/Game/__ExternalObjects__/Map/9/V6/299E0LO63MJKM16I8KR2QW
+/Game/__ExternalObjects__/Map/3/SD/PX9HGTDPV4H9MU1WO53IZR
+/Game/__ExternalObjects__/Map/7/DR/Y2LJXCW3NZK1QO1F2LOSKB
+/Game/__ExternalObjects__/Map/8/LQ/RHADUOZNAI6OUCZZ2CYNCK
+/Game/__ExternalObjects__/Map/C/J9/NR9QUXA37YJAXTS59BIV4M
+/Game/__ExternalObjects__/Map/E/DG/JG04KBBL5V3NOZYF32EYGO
+/Game/__ExternalObjects__/Map/4/5W/72YFYUE1LG1C14WHBVKDE1
+/Game/__ExternalObjects__/Map/C/74/WLJTRYIU06IH227MXT4A53
+/Game/__ExternalObjects__/Map/5/P8/DMFWRJ5P3WUHAREKZNDJAF
+/Game/__ExternalObjects__/Map/E/03/536XOVVHU73AAAKPE5VHJ8
+/Game/__ExternalObjects__/Map/E/BS/9M899R2R37JSFZKGIXDUJZ
+/Game/__ExternalObjects__/Map/7/LP/9CHFL06DV5FL6XK1DQIDAG
+/Game/__ExternalObjects__/Map/B/G2/2LFX5VYBRCTVZVYT6X4114
+/Game/__ExternalObjects__/Map/3/SN/WY43SXIPD2GVMWLN1FL1HZ
+/Game/__ExternalObjects__/Map/6/AG/LG6UKNNMA4XIB59BE2BV9I
+/Game/__ExternalObjects__/Map/C/EZ/433FZJNRVCHD3TRH8FVOG8
+/Game/__ExternalObjects__/Map/B/F2/9FYL5FXWTVK3QUIEOLM3Z2
+/Game/__ExternalObjects__/Map/1/ZC/72Z485RWDJS8VKGI0V6UWX
+/Game/__ExternalObjects__/Map/C/JB/9R5R588DU0WTX66ESNBS7H
+/Game/__ExternalObjects__/Map/5/2H/QN7YRP6EXPDH0491V68AXQ
+/Game/__ExternalObjects__/Map/C/AE/IP3D4EYOLMUVVPT23NA17K
+/Game/__ExternalObjects__/Map/8/Z1/3ZVJN84YBDV7KPX5MPE6CW
+/Game/__ExternalObjects__/Map/5/KK/IXBXT3ETGL9DMCBPHEOJGD
+/Game/__ExternalObjects__/Map/D/XD/28ADDHOX7L1XS9P13AH7YM
+/Game/__ExternalObjects__/Map/5/1O/XWP7FJIA7N56XEI80H5K02
+/Game/__ExternalObjects__/Map/9/Z9/ALBA9URNJIKPXOD8LQIL6B
+/Game/__ExternalObjects__/Map/2/Y7/U73DKBS8I4X80RT5Q4U37U
+/Game/__ExternalObjects__/Map/5/WU/VQITOQKU2YP1O7NBKOBCAN
+/Game/__ExternalObjects__/Map/B/F3/HTVL4ALXX8N94019VXAFBO
+/Game/__ExternalObjects__/Map/2/M3/LFBKZ6YXTVUZR61PIFE0S9
+/Game/__ExternalObjects__/Map/A/E0/47GWJTBBULCHV00H3Y0WSI
+/Game/__ExternalObjects__/Map/B/3O/ORAPW36WJ31LT6HWLJI1PR
+/Game/__ExternalObjects__/Map/D/3O/69YSWWI88QUWQ9CVBOUWC9
+/Game/__ExternalObjects__/Map/B/5P/9F5F8KANQA7QGPZV5LK8OI
+/Game/__ExternalObjects__/Map/4/PE/0FE95B732N0TS0HEN2HLRG
+/Game/__ExternalObjects__/Map/2/NA/0U1DHTNDUSYYXFF91IJVL0
+[2024.11.15-23.17.07:394][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-23.17.07:436][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.15-23.17.07:447][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.11.15-23.17.07:457][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.11.15-23.17.07:458][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Map_HLOD0_Instancing] ([1] browsable assets)...
+[2024.11.15-23.17.07:458][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/Map_HLOD0_Instancing]
+[2024.11.15-23.17.07:458][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map_HLOD0_Instancing" FILE="C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/Map_HLOD0_Instancing.uasset" SILENT=true
+[2024.11.15-23.17.07:458][ 89]LogSavePackage: Moving output files for package: /Game/Map_HLOD0_Instancing
+[2024.11.15-23.17.07:458][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/Map_HLOD0_Instancing0EAAFB4E4F8A00D9F9B879BFAEC7EB57.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/Map_HLOD0_Instancing.uasset'
+[2024.11.15-23.17.07:460][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/PN/679A47FIAS5NIV6T6OABSZ
+[2024.11.15-23.17.07:460][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/679A47FIAS5NIV6T6OABSZ16CA9A454CFE95CB6E0E74A4949EFF6E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/PN/679A47FIAS5NIV6T6OABSZ.uasset'
+[2024.11.15-23.17.07:461][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1] ([1] browsable assets)...
+[2024.11.15-23.17.07:461][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1]
+[2024.11.15-23.17.07:462][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1
+[2024.11.15-23.17.07:462][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MAL0YGWBLY7JBKHB4O7CZ1A9700E794C1BA49D7C4B8F9292339F62.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1.uasset'
+[2024.11.15-23.17.07:464][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B] ([1] browsable assets)...
+[2024.11.15-23.17.07:464][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B]
+[2024.11.15-23.17.07:464][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B
+[2024.11.15-23.17.07:464][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/0H0KZIHPYOZRDWO7ZL7D2B6C5C7A184ED681146C89008BA86B7305.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B.uasset'
+[2024.11.15-23.17.07:466][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG] ([1] browsable assets)...
+[2024.11.15-23.17.07:466][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG]
+[2024.11.15-23.17.07:467][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG
+[2024.11.15-23.17.07:467][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/RZRJ611Z0F41HZ76FDNJZGCC6AB53F4CA19024B79170998F311EE6.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG.uasset'
+[2024.11.15-23.17.07:468][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6] ([1] browsable assets)...
+[2024.11.15-23.17.07:468][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6]
+[2024.11.15-23.17.07:469][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6
+[2024.11.15-23.17.07:469][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/8JKDXCMJVM57O86XKM82G674F4239F469B6E8700A2D28521F35AA7.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6.uasset'
+[2024.11.15-23.17.07:470][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4] ([1] browsable assets)...
+[2024.11.15-23.17.07:470][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4]
+[2024.11.15-23.17.07:471][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4
+[2024.11.15-23.17.07:471][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/7N9Q80CF4G806X6J7YAIQ47C1545EB40EA3D916EB0DFAA24ADACA6.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4.uasset'
+[2024.11.15-23.17.07:472][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS] ([1] browsable assets)...
+[2024.11.15-23.17.07:472][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS]
+[2024.11.15-23.17.07:473][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS
+[2024.11.15-23.17.07:473][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JA4395GYL2S29V4HOLB2OS90F788E241B4C4056A07D4A748B890A0.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS.uasset'
+[2024.11.15-23.17.07:520][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/WS/QX4C0DOFI76YCSAYNO5JQE
+[2024.11.15-23.17.07:521][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/QX4C0DOFI76YCSAYNO5JQEAA706881400ECF8F9DC71298020D028C.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/WS/QX4C0DOFI76YCSAYNO5JQE.uasset'
+[2024.11.15-23.17.07:523][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/IQ/KU2P0B5S35RKRJFG045BGU
+[2024.11.15-23.17.07:523][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/KU2P0B5S35RKRJFG045BGU5D26AA264B064325505237B9DB697DEE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/IQ/KU2P0B5S35RKRJFG045BGU.uasset'
+[2024.11.15-23.17.07:525][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/4R/RQ87O5DWV1GS3RM83S87ER
+[2024.11.15-23.17.07:525][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/RQ87O5DWV1GS3RM83S87ERC8B366344DC0BECD9C306DA814DD6F1E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/4R/RQ87O5DWV1GS3RM83S87ER.uasset'
+[2024.11.15-23.17.07:527][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/04/GXGCZBGQIT6XOIC2YMCA7Y
+[2024.11.15-23.17.07:527][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/GXGCZBGQIT6XOIC2YMCA7Y4C142DE149236FB761AEBBBE9AB2406E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/04/GXGCZBGQIT6XOIC2YMCA7Y.uasset'
+[2024.11.15-23.17.07:530][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/DK/E33MPSK7Y43XTDGO8QS1RE
+[2024.11.15-23.17.07:530][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/E33MPSK7Y43XTDGO8QS1REB48C02B743B025DF162F888BEB78D60E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/DK/E33MPSK7Y43XTDGO8QS1RE.uasset'
+[2024.11.15-23.17.07:533][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/XN/7HQAL0TRFJP5JVHT0P65QE
+[2024.11.15-23.17.07:533][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/7HQAL0TRFJP5JVHT0P65QEA2CC17D745CEBC86934ADC82F7897A68.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/XN/7HQAL0TRFJP5JVHT0P65QE.uasset'
+[2024.11.15-23.17.07:535][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/A6/4GAGL02KME4WKDV2QV6BZY
+[2024.11.15-23.17.07:535][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/4GAGL02KME4WKDV2QV6BZY7D4336414F406834528CFCAF9363252D.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/A6/4GAGL02KME4WKDV2QV6BZY.uasset'
+[2024.11.15-23.17.07:538][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/9T/EMNDYTIV2ER8WSS8BD6EBZ
+[2024.11.15-23.17.07:538][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/EMNDYTIV2ER8WSS8BD6EBZ93ED28C64D6080475DCD789938BE25E3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/9T/EMNDYTIV2ER8WSS8BD6EBZ.uasset'
+[2024.11.15-23.17.07:541][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/80/YMNYIN8O1DQIBPX0Z48GFK
+[2024.11.15-23.17.07:541][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/YMNYIN8O1DQIBPX0Z48GFK26CD756742AB61FA11BCE88867BAF1BA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/80/YMNYIN8O1DQIBPX0Z48GFK.uasset'
+[2024.11.15-23.17.07:555][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/AA/VQXSQJQSNBQTG1ZXKITNOW
+[2024.11.15-23.17.07:555][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/VQXSQJQSNBQTG1ZXKITNOWF05D5D18461CA9668EE83D9D6E6EC240.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/AA/VQXSQJQSNBQTG1ZXKITNOW.uasset'
+[2024.11.15-23.17.07:569][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/CW/VP8XOF1ZIZ9XTB0YHCY1JZ
+[2024.11.15-23.17.07:569][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/VP8XOF1ZIZ9XTB0YHCY1JZCBA6281447293603609DB6B51A61CCC0.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/CW/VP8XOF1ZIZ9XTB0YHCY1JZ.uasset'
+[2024.11.15-23.17.07:583][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/AN/XC4LASUJDOS1WZEH14CVIY
+[2024.11.15-23.17.07:583][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/XC4LASUJDOS1WZEH14CVIY6DDC0A394BE9F44098723B83033018F7.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/AN/XC4LASUJDOS1WZEH14CVIY.uasset'
+[2024.11.15-23.17.07:599][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/6C/T84FMNLLAK0KC7KWY38PP5
+[2024.11.15-23.17.07:600][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/T84FMNLLAK0KC7KWY38PP51B1E6CF2403A5A1A375ECA8EA4B31CF3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/6C/T84FMNLLAK0KC7KWY38PP5.uasset'
+[2024.11.15-23.17.07:613][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/LZ/DKEDVXQ4EXND5KFSD4YMCC
+[2024.11.15-23.17.07:613][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/DKEDVXQ4EXND5KFSD4YMCC3128C08947D3E588596FCBB645467462.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/LZ/DKEDVXQ4EXND5KFSD4YMCC.uasset'
+[2024.11.15-23.17.07:627][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/5W/85JFAHRIBCHECAUYBS52A2
+[2024.11.15-23.17.07:628][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/85JFAHRIBCHECAUYBS52A2B1B702C14B52ACCC6512F8AACAEFD585.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/5W/85JFAHRIBCHECAUYBS52A2.uasset'
+[2024.11.15-23.17.07:642][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/6I/RVJ5TN14WZKMGHEEPHZ4NV
+[2024.11.15-23.17.07:642][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/RVJ5TN14WZKMGHEEPHZ4NV077905814A91E619417560B1B24D13BF.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/6I/RVJ5TN14WZKMGHEEPHZ4NV.uasset'
+[2024.11.15-23.17.07:657][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/JD/ROBGTJ7D13UMZR7GWUOWVG
+[2024.11.15-23.17.07:657][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ROBGTJ7D13UMZR7GWUOWVGCA2D1D4E43B6BAA2E9076F9524ADB7BA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/JD/ROBGTJ7D13UMZR7GWUOWVG.uasset'
+[2024.11.15-23.17.07:672][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/JH/B2XZ1MQA64FMRSZQPHP7TH
+[2024.11.15-23.17.07:673][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/B2XZ1MQA64FMRSZQPHP7TH867EB766455C52444AF2358E5C733AEA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/JH/B2XZ1MQA64FMRSZQPHP7TH.uasset'
+[2024.11.15-23.17.07:688][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/UL/11ZYTYTC2EV89QGZE3ILJI
+[2024.11.15-23.17.07:688][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/11ZYTYTC2EV89QGZE3ILJIB559634043CF912BC5040B8758F11D1A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/UL/11ZYTYTC2EV89QGZE3ILJI.uasset'
+[2024.11.15-23.17.07:704][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/QH/OJZ5KGC0RUNUES28JGDRRU
+[2024.11.15-23.17.07:704][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/OJZ5KGC0RUNUES28JGDRRUC0AACD2E47243D8A580B9EA32DA8FE21.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/QH/OJZ5KGC0RUNUES28JGDRRU.uasset'
+[2024.11.15-23.17.07:719][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/CL/OEC6CWQQBTHJZ5SMC6AZQF
+[2024.11.15-23.17.07:719][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/OEC6CWQQBTHJZ5SMC6AZQF23DA16B94BE22F096830F4A225F77ED9.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/CL/OEC6CWQQBTHJZ5SMC6AZQF.uasset'
+[2024.11.15-23.17.07:734][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/2I/2W1NXZ2CCKAQ9O5XETKC31
+[2024.11.15-23.17.07:734][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/2W1NXZ2CCKAQ9O5XETKC312A7FB70243A2E29E4BCACABDFF1B25A5.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/2I/2W1NXZ2CCKAQ9O5XETKC31.uasset'
+[2024.11.15-23.17.07:750][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/03/VL5J2ISCHVB4E8AWWX2N73
+[2024.11.15-23.17.07:750][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/VL5J2ISCHVB4E8AWWX2N7357A2CBCD49FAEED3D0DD68B914A120B0.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/03/VL5J2ISCHVB4E8AWWX2N73.uasset'
+[2024.11.15-23.17.07:766][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/UN/HGTODXDC2O1HWZRYYXJDWE
+[2024.11.15-23.17.07:766][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/HGTODXDC2O1HWZRYYXJDWE78803CD34D00F456E01C3885C21140EC.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/UN/HGTODXDC2O1HWZRYYXJDWE.uasset'
+[2024.11.15-23.17.07:781][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/Q4/P0NKG51JRER9B7WG1PGKI3
+[2024.11.15-23.17.07:781][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/P0NKG51JRER9B7WG1PGKI3D5B44F1A4BD15BA0F61D078775DCEB6A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/Q4/P0NKG51JRER9B7WG1PGKI3.uasset'
+[2024.11.15-23.17.07:798][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/QC/0Q19D74XXHXWZ6T2OMQ0FU
+[2024.11.15-23.17.07:798][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/0Q19D74XXHXWZ6T2OMQ0FU6A1E871F417378B5874DC0BD607F3813.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/QC/0Q19D74XXHXWZ6T2OMQ0FU.uasset'
+[2024.11.15-23.17.07:813][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/K5/1YYFA62TW3XM69BUOPP3RI
+[2024.11.15-23.17.07:813][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/1YYFA62TW3XM69BUOPP3RI0A4FCDA146230EFEB7C655B57087E97D.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/K5/1YYFA62TW3XM69BUOPP3RI.uasset'
+[2024.11.15-23.17.07:828][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/J4/VNYQ9LGJA1EA0GFLNZHLLA
+[2024.11.15-23.17.07:828][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/VNYQ9LGJA1EA0GFLNZHLLAFE01905D46A8CD395B9D0898DD91FF9B.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/J4/VNYQ9LGJA1EA0GFLNZHLLA.uasset'
+[2024.11.15-23.17.07:844][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/7U/NWAF2EXZHC9V443SOVX96J
+[2024.11.15-23.17.07:844][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/NWAF2EXZHC9V443SOVX96JB235156F46AA085F863E9C9528BB7B70.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/7U/NWAF2EXZHC9V443SOVX96J.uasset'
+[2024.11.15-23.17.07:860][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/W2/XWSOP3RAXUVMNKNSIJ07EV
+[2024.11.15-23.17.07:860][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/XWSOP3RAXUVMNKNSIJ07EV5231EC7A4AF4F44C1E6155A28CE89CA5.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/W2/XWSOP3RAXUVMNKNSIJ07EV.uasset'
+[2024.11.15-23.17.07:876][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/4Q/KNMT73ZN0DN0DV8F1OPWK7
+[2024.11.15-23.17.07:876][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/KNMT73ZN0DN0DV8F1OPWK78FF6BE8D4FA74D7441960A800E779FCB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/4Q/KNMT73ZN0DN0DV8F1OPWK7.uasset'
+[2024.11.15-23.17.07:892][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/4M/BK6Y93SN9LDAXUMBKT701S
+[2024.11.15-23.17.07:892][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BK6Y93SN9LDAXUMBKT701S2D3068844D5A146CB73D82B4408505C1.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/4M/BK6Y93SN9LDAXUMBKT701S.uasset'
+[2024.11.15-23.17.07:907][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/0Y/565FMOSHV5TPZ5E2DI88SE
+[2024.11.15-23.17.07:907][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/565FMOSHV5TPZ5E2DI88SEAC9C7572459A7E08371EC18CE19E615F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/0Y/565FMOSHV5TPZ5E2DI88SE.uasset'
+[2024.11.15-23.17.07:922][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/X5/ZRZKCZEJCOK5GVABFDZFYF
+[2024.11.15-23.17.07:922][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ZRZKCZEJCOK5GVABFDZFYFC302969A42E44D43140F00BB180D3713.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/X5/ZRZKCZEJCOK5GVABFDZFYF.uasset'
+[2024.11.15-23.17.07:937][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/W6/1XDV3S0ZY4DFZ0AYUEDC4V
+[2024.11.15-23.17.07:938][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/1XDV3S0ZY4DFZ0AYUEDC4VE51C844046146A90E60AF7AF5B9EFE94.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/W6/1XDV3S0ZY4DFZ0AYUEDC4V.uasset'
+[2024.11.15-23.17.07:953][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/QS/MDP1ZOU1GLS16HZ1DK7B4P
+[2024.11.15-23.17.07:953][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MDP1ZOU1GLS16HZ1DK7B4PCCDFD30A4A39C004DA1FD286E41484E4.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/QS/MDP1ZOU1GLS16HZ1DK7B4P.uasset'
+[2024.11.15-23.17.07:969][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/PC/BVKMJ8915U2LQO7K6FTHBA
+[2024.11.15-23.17.07:969][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BVKMJ8915U2LQO7K6FTHBADA535A7149BA874E1695E686F2773E40.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/PC/BVKMJ8915U2LQO7K6FTHBA.uasset'
+[2024.11.15-23.17.07:983][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/10/ZATGH84UOQKZ15WMTUYNKZ
+[2024.11.15-23.17.07:983][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ZATGH84UOQKZ15WMTUYNKZF285F865487A433545033994DBF0E225.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/10/ZATGH84UOQKZ15WMTUYNKZ.uasset'
+[2024.11.15-23.17.08:000][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/XA/AJ9CX7D6H6384NZMEXQ6I2
+[2024.11.15-23.17.08:000][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/AJ9CX7D6H6384NZMEXQ6I289B161D248540F34C860EA8BB50EE13A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/XA/AJ9CX7D6H6384NZMEXQ6I2.uasset'
+[2024.11.15-23.17.08:016][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/32/Z7Z992PM3V5LF0FCSQ5NGL
+[2024.11.15-23.17.08:016][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/Z7Z992PM3V5LF0FCSQ5NGL13B441A941FD1CD6319953A1A0340CD5.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/32/Z7Z992PM3V5LF0FCSQ5NGL.uasset'
+[2024.11.15-23.17.08:031][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/3Z/RVSK18RI3EX9RR6YL2Y3WY
+[2024.11.15-23.17.08:031][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/RVSK18RI3EX9RR6YL2Y3WY644A30F3408C9799390783A981476B0F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/3Z/RVSK18RI3EX9RR6YL2Y3WY.uasset'
+[2024.11.15-23.17.08:047][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/0P/99RBU14ZFZ5FTRCKDA5FR0
+[2024.11.15-23.17.08:047][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/99RBU14ZFZ5FTRCKDA5FR02E8810D347936C5F99F2A78A0EBED6EC.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/0P/99RBU14ZFZ5FTRCKDA5FR0.uasset'
+[2024.11.15-23.17.08:062][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/AI/U9RJW328N60Q0NHVC9VOWZ
+[2024.11.15-23.17.08:062][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/U9RJW328N60Q0NHVC9VOWZ9A99AC1E4AC070F1D31212A5B36F50F4.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/AI/U9RJW328N60Q0NHVC9VOWZ.uasset'
+[2024.11.15-23.17.08:078][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/V5/6ZZ8VADNTPCIAIQUDAZI7H
+[2024.11.15-23.17.08:078][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/6ZZ8VADNTPCIAIQUDAZI7HED6A65C14A1274CEDA18ADAB6963D926.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/V5/6ZZ8VADNTPCIAIQUDAZI7H.uasset'
+[2024.11.15-23.17.08:094][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/9E/0NHG3CUM35B85P5IGHOX6K
+[2024.11.15-23.17.08:094][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/0NHG3CUM35B85P5IGHOX6K97DF776F41A966A3A7CCC2AB4FD8D18E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/9E/0NHG3CUM35B85P5IGHOX6K.uasset'
+[2024.11.15-23.17.08:109][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/F0/QBKBVVXD1UPGAYW2Z3QMND
+[2024.11.15-23.17.08:109][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/QBKBVVXD1UPGAYW2Z3QMNDCFD823F94853D6133349859791C15E2F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/F0/QBKBVVXD1UPGAYW2Z3QMND.uasset'
+[2024.11.15-23.17.08:124][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/XD/DXMB06G1JLUSJZA014S2WZ
+[2024.11.15-23.17.08:124][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/DXMB06G1JLUSJZA014S2WZ21E1BECA425EE3F850837EA1D4CEE83E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/XD/DXMB06G1JLUSJZA014S2WZ.uasset'
+[2024.11.15-23.17.08:140][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/DH/YRCT0MC14LRMZ6JZ1LVAT0
+[2024.11.15-23.17.08:140][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/YRCT0MC14LRMZ6JZ1LVAT081B1B1274E3D80073FC958A8DB4AC851.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/DH/YRCT0MC14LRMZ6JZ1LVAT0.uasset'
+[2024.11.15-23.17.08:156][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/3C/BTZN9DYT5MX5M89TM22K92
+[2024.11.15-23.17.08:156][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BTZN9DYT5MX5M89TM22K922346E6AF4517ECD3090FFE8FCD720BF3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/3C/BTZN9DYT5MX5M89TM22K92.uasset'
+[2024.11.15-23.17.08:172][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/QG/6SPY00BH3MKMLZKSORNKUJ
+[2024.11.15-23.17.08:172][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/6SPY00BH3MKMLZKSORNKUJ2277C04A4AA637DC659805A54E60C2B1.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/QG/6SPY00BH3MKMLZKSORNKUJ.uasset'
+[2024.11.15-23.17.08:188][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/JA/MOTMDFD1POA6BUR2I5TBYY
+[2024.11.15-23.17.08:188][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MOTMDFD1POA6BUR2I5TBYY6677D69A47A934016BFEE8B720BA3A07.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/JA/MOTMDFD1POA6BUR2I5TBYY.uasset'
+[2024.11.15-23.17.08:204][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/T6/A572CY7HDMFD8DTARO64XO
+[2024.11.15-23.17.08:204][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/A572CY7HDMFD8DTARO64XOEF5F937540C7E7A1F28A428889457DB6.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/T6/A572CY7HDMFD8DTARO64XO.uasset'
+[2024.11.15-23.17.08:220][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/HO/38BJ8O90S6O9IN5RHBN70K
+[2024.11.15-23.17.08:220][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/38BJ8O90S6O9IN5RHBN70KAB6061F04298D6649BBDDD8BBA6CFC91.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/HO/38BJ8O90S6O9IN5RHBN70K.uasset'
+[2024.11.15-23.17.08:235][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/7Z/WPEAWR3YEUIDDF8L1L5EWH
+[2024.11.15-23.17.08:235][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/WPEAWR3YEUIDDF8L1L5EWHA94DF474458C5575B395C7BCA2CD3DF1.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/7Z/WPEAWR3YEUIDDF8L1L5EWH.uasset'
+[2024.11.15-23.17.08:251][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/6L/TMKCBBKM8KMSV8C32IGH0Q
+[2024.11.15-23.17.08:251][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/TMKCBBKM8KMSV8C32IGH0Q56D6470F4A0706E8D9BC5CA9D64B2811.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/6L/TMKCBBKM8KMSV8C32IGH0Q.uasset'
+[2024.11.15-23.17.08:267][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/C9/X6HBSFDC97YEDR95OKQZDZ
+[2024.11.15-23.17.08:267][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/X6HBSFDC97YEDR95OKQZDZ64D3DF074A1BE65D259127AE490185AE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/C9/X6HBSFDC97YEDR95OKQZDZ.uasset'
+[2024.11.15-23.17.08:284][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/43/HR8T8YWN6NBRXD8HKW4BO0
+[2024.11.15-23.17.08:284][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/HR8T8YWN6NBRXD8HKW4BO03547721A46E7D791ED9D33BA56FA7F4B.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/43/HR8T8YWN6NBRXD8HKW4BO0.uasset'
+[2024.11.15-23.17.08:300][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/7D/ZYD898LDUQL87P4N61A900
+[2024.11.15-23.17.08:300][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ZYD898LDUQL87P4N61A9008241F5184B964E13C17F12BE347F28E3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/7D/ZYD898LDUQL87P4N61A900.uasset'
+[2024.11.15-23.17.08:314][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/QB/D8MJSWQ44Q3FBFCHCS719H
+[2024.11.15-23.17.08:314][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/D8MJSWQ44Q3FBFCHCS719HF3A94FEA43A37D1C8316CBB7B3BC7045.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/QB/D8MJSWQ44Q3FBFCHCS719H.uasset'
+[2024.11.15-23.17.08:330][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/0F/AP0QJU5IK0USI7V0GRYKDM
+[2024.11.15-23.17.08:330][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/AP0QJU5IK0USI7V0GRYKDM7DE990384031B86D0425F38C0E859983.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/0F/AP0QJU5IK0USI7V0GRYKDM.uasset'
+[2024.11.15-23.17.08:346][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/7E/743R53ALHD6FAEHQL3K4GY
+[2024.11.15-23.17.08:346][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/743R53ALHD6FAEHQL3K4GY96DAC7BA43B62545A02166BB83B04FF4.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/7E/743R53ALHD6FAEHQL3K4GY.uasset'
+[2024.11.15-23.17.08:361][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/42/PTCPZFXNU43F212UZ7XH16
+[2024.11.15-23.17.08:361][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/PTCPZFXNU43F212UZ7XH1647D3476946A10A002788FD829C0A8D5B.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/42/PTCPZFXNU43F212UZ7XH16.uasset'
+[2024.11.15-23.17.08:377][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/94/1QTZ2XZ7SHR0W4CGOY710R
+[2024.11.15-23.17.08:377][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/1QTZ2XZ7SHR0W4CGOY710RFB21560440389845479473808407817E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/94/1QTZ2XZ7SHR0W4CGOY710R.uasset'
+[2024.11.15-23.17.08:392][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/OE/WNMQJLYENL8W30LV0MR95K
+[2024.11.15-23.17.08:392][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/WNMQJLYENL8W30LV0MR95KF4758A6B4FC7B9D4CE506C8CB27205AB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/OE/WNMQJLYENL8W30LV0MR95K.uasset'
+[2024.11.15-23.17.08:410][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/0S/C5CZWG9Y1D0YAV4YMBOSNX
+[2024.11.15-23.17.08:410][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/C5CZWG9Y1D0YAV4YMBOSNXF24AFC3240ED6E406A0D0CAF38E83B76.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/0S/C5CZWG9Y1D0YAV4YMBOSNX.uasset'
+[2024.11.15-23.17.08:425][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/U0/DATNQZ7SQWPBLOR1C7D4XD
+[2024.11.15-23.17.08:425][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/DATNQZ7SQWPBLOR1C7D4XD086E0A0D4C1FC0230C8FB5973D963F0A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/U0/DATNQZ7SQWPBLOR1C7D4XD.uasset'
+[2024.11.15-23.17.08:440][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/A1/YMYLCGN8S5YZMNMNYKESJZ
+[2024.11.15-23.17.08:440][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/YMYLCGN8S5YZMNMNYKESJZF523768C4D7F060B8C36AFA1990B575D.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/A1/YMYLCGN8S5YZMNMNYKESJZ.uasset'
+[2024.11.15-23.17.08:455][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/0K/V4PX8NV6D7C0SHGQC1G2Y5
+[2024.11.15-23.17.08:455][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/V4PX8NV6D7C0SHGQC1G2Y568400DC848CD9D4429CD2896A8FEAB6F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/0K/V4PX8NV6D7C0SHGQC1G2Y5.uasset'
+[2024.11.15-23.17.08:471][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/ZK/YGBAY0IN3DUZ477X8KUQGF
+[2024.11.15-23.17.08:471][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/YGBAY0IN3DUZ477X8KUQGF064AE0834AD2DCFB97DB8CAEDB169D25.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/ZK/YGBAY0IN3DUZ477X8KUQGF.uasset'
+[2024.11.15-23.17.08:486][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/W2/JDGIJ9RP5IFGXH8TF10ZWR
+[2024.11.15-23.17.08:486][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JDGIJ9RP5IFGXH8TF10ZWR8BE8211A4D6EEA6CCB387680258FD448.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/W2/JDGIJ9RP5IFGXH8TF10ZWR.uasset'
+[2024.11.15-23.17.08:502][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/29/H08A5HJQ4ZIZLHB1LXNIFZ
+[2024.11.15-23.17.08:502][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/H08A5HJQ4ZIZLHB1LXNIFZCD7644A44F10ADD69521CE9B69C20AE0.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/29/H08A5HJQ4ZIZLHB1LXNIFZ.uasset'
+[2024.11.15-23.17.08:518][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/XM/R14ML0CYVT0201G7BJNF84
+[2024.11.15-23.17.08:518][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/R14ML0CYVT0201G7BJNF8427769E2B46E711F7CDCEB89A91AF546C.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/XM/R14ML0CYVT0201G7BJNF84.uasset'
+[2024.11.15-23.17.08:533][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/IN/HB1D6AXUH8NQSZ1VR2T37L
+[2024.11.15-23.17.08:533][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/HB1D6AXUH8NQSZ1VR2T37L71F5782341C3EF2E3371A38F7FF04087.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/IN/HB1D6AXUH8NQSZ1VR2T37L.uasset'
+[2024.11.15-23.17.08:539][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/FF/MA8GS3VLNXK9J8F8U9PBKC
+[2024.11.15-23.17.08:539][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MA8GS3VLNXK9J8F8U9PBKCBF08DC5A411469C78033B69784CEBA9A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/FF/MA8GS3VLNXK9J8F8U9PBKC.uasset'
+[2024.11.15-23.17.08:544][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/XR/2BWLHU4O3CLBGO8ZXRIRNG
+[2024.11.15-23.17.08:544][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/2BWLHU4O3CLBGO8ZXRIRNG39AF5B9943825D021F91BEA0F9413BB7.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/XR/2BWLHU4O3CLBGO8ZXRIRNG.uasset'
+[2024.11.15-23.17.08:549][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/UX/3X46MGBYLKX0HGFGQ36Z69
+[2024.11.15-23.17.08:549][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/3X46MGBYLKX0HGFGQ36Z6933A0CDD9446CAA1615546B86F719EA3F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/UX/3X46MGBYLKX0HGFGQ36Z69.uasset'
+[2024.11.15-23.17.08:554][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/T6/A9ITE0LTNEHY9CDTMMG0VT
+[2024.11.15-23.17.08:554][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/A9ITE0LTNEHY9CDTMMG0VT18F6D88B470B26FC63DCA0A0A1B1C831.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/T6/A9ITE0LTNEHY9CDTMMG0VT.uasset'
+[2024.11.15-23.17.08:560][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/0F/DKLO7C1FBD4SCOQ1AMG4ET
+[2024.11.15-23.17.08:560][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/DKLO7C1FBD4SCOQ1AMG4ETA56013E3488F5CBFA6E5A79A6B1BB691.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/0F/DKLO7C1FBD4SCOQ1AMG4ET.uasset'
+[2024.11.15-23.17.08:565][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/DF/H5YX22U0AMCPUB45KCF2CJ
+[2024.11.15-23.17.08:565][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/H5YX22U0AMCPUB45KCF2CJ0310EE7246EA0236808044AD01245684.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/DF/H5YX22U0AMCPUB45KCF2CJ.uasset'
+[2024.11.15-23.17.08:570][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/3R/JONEVLHYPF92B7LFF5SWJH
+[2024.11.15-23.17.08:570][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JONEVLHYPF92B7LFF5SWJH4DF0C90645E5EF2D7E8A1398E4BE25CA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/3R/JONEVLHYPF92B7LFF5SWJH.uasset'
+[2024.11.15-23.17.08:576][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/PB/7XAQTKWNILFOESGEWMOK7S
+[2024.11.15-23.17.08:576][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/7XAQTKWNILFOESGEWMOK7S4E5EDD9F4A0256AC4C44CAAD0118AA1F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/PB/7XAQTKWNILFOESGEWMOK7S.uasset'
+[2024.11.15-23.17.08:581][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/AT/Q3KO5SL5FB1ZMUZU0O5ODS
+[2024.11.15-23.17.08:581][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/Q3KO5SL5FB1ZMUZU0O5ODS9E16D8FF48ACB3B3D26CEAA8B9DAD53E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/AT/Q3KO5SL5FB1ZMUZU0O5ODS.uasset'
+[2024.11.15-23.17.08:586][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/DC/Q6QL1BJ8H86YMUDYXE769V
+[2024.11.15-23.17.08:586][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/Q6QL1BJ8H86YMUDYXE769V3EBB247349CE8A8F5C7B459D62F5E313.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/DC/Q6QL1BJ8H86YMUDYXE769V.uasset'
+[2024.11.15-23.17.08:592][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/ST/34MRUQVURK1YJ5233DYGK6
+[2024.11.15-23.17.08:592][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/34MRUQVURK1YJ5233DYGK64A5044464190A5764A6436ABE698AD28.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/ST/34MRUQVURK1YJ5233DYGK6.uasset'
+[2024.11.15-23.17.08:598][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/C5/2KHBJQGFH76AG87YY3HABQ
+[2024.11.15-23.17.08:598][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/2KHBJQGFH76AG87YY3HABQC41F7FCE45C0C0AC36C9F49760720923.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/C5/2KHBJQGFH76AG87YY3HABQ.uasset'
+[2024.11.15-23.17.08:605][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/YN/K47T0F67A34AN06DMPUVLL
+[2024.11.15-23.17.08:605][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/K47T0F67A34AN06DMPUVLLF86439EE4A8893AB7883C69F46D3FE68.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/YN/K47T0F67A34AN06DMPUVLL.uasset'
+[2024.11.15-23.17.08:611][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/3K/MSQC9BQN6KYNLML01U076H
+[2024.11.15-23.17.08:611][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MSQC9BQN6KYNLML01U076HA7B385BF4E980A93CC753196900AD191.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/3K/MSQC9BQN6KYNLML01U076H.uasset'
+[2024.11.15-23.17.08:618][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/6Z/N9FM9MOY57FKAK2VU5GDU4
+[2024.11.15-23.17.08:618][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/N9FM9MOY57FKAK2VU5GDU4291C98CF4FA589EA32ED62818EDF25FA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/6Z/N9FM9MOY57FKAK2VU5GDU4.uasset'
+[2024.11.15-23.17.08:624][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/5/23/TLKH2MJMDEL6WVID1MVL1J
+[2024.11.15-23.17.08:624][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/TLKH2MJMDEL6WVID1MVL1J5F0BFA684D0B42D940496A9D47065184.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/5/23/TLKH2MJMDEL6WVID1MVL1J.uasset'
+[2024.11.15-23.17.08:631][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/2X/O8Y5RH1ARBZJDGJKSWTO7E
+[2024.11.15-23.17.08:631][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/O8Y5RH1ARBZJDGJKSWTO7E1143D6A94FCEBB68371FD89A7C3C53EA.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/2X/O8Y5RH1ARBZJDGJKSWTO7E.uasset'
+[2024.11.15-23.17.08:638][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/ZE/R3G1M08KZBUPS6QC2DI7SC
+[2024.11.15-23.17.08:638][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/R3G1M08KZBUPS6QC2DI7SCF6EC3A30415524DBC92FB8AB0C791E84.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/ZE/R3G1M08KZBUPS6QC2DI7SC.uasset'
+[2024.11.15-23.17.08:644][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/HM/WPRUG6LH79UMCZOXPVMMI3
+[2024.11.15-23.17.08:644][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/WPRUG6LH79UMCZOXPVMMI30AE41FE64798AD3668CF9F9D9EAC7623.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/HM/WPRUG6LH79UMCZOXPVMMI3.uasset'
+[2024.11.15-23.17.08:650][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/DJ/D0KB8DKG79S1LU72XH1M1F
+[2024.11.15-23.17.08:650][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/D0KB8DKG79S1LU72XH1M1FBF80CDE243AA74D5B7AB9EB2123AAEAE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/DJ/D0KB8DKG79S1LU72XH1M1F.uasset'
+[2024.11.15-23.17.08:656][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/U1/1WK0OZQ3A2T3JL3ISQQOAB
+[2024.11.15-23.17.08:656][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/1WK0OZQ3A2T3JL3ISQQOABD3523B3B455EE48995E6259869758928.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/U1/1WK0OZQ3A2T3JL3ISQQOAB.uasset'
+[2024.11.15-23.17.08:662][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/N1/P5KXCBQODTZQRVHPIAPC7A
+[2024.11.15-23.17.08:662][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/P5KXCBQODTZQRVHPIAPC7A1E7E1C84477472F0B53762BE681751B5.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/N1/P5KXCBQODTZQRVHPIAPC7A.uasset'
+[2024.11.15-23.17.08:667][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/8S/STMSF8VHTVJIYH10P5CS2U
+[2024.11.15-23.17.08:667][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/STMSF8VHTVJIYH10P5CS2U765DA5994E90D77EB16C5ABD110885BF.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/8S/STMSF8VHTVJIYH10P5CS2U.uasset'
+[2024.11.15-23.17.08:673][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/L2/3KQUQ2GZS9QWGRAHO2Y5OT
+[2024.11.15-23.17.08:673][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/3KQUQ2GZS9QWGRAHO2Y5OT363257704E64D947CF2827A0FD205FF3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/L2/3KQUQ2GZS9QWGRAHO2Y5OT.uasset'
+[2024.11.15-23.17.08:678][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/O5/ZLD257B2OLB6OJG60FJRW1
+[2024.11.15-23.17.08:678][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ZLD257B2OLB6OJG60FJRW17A0FB7AE4DC20DF5E85FC583859EBABF.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/O5/ZLD257B2OLB6OJG60FJRW1.uasset'
+[2024.11.15-23.17.08:684][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/IV/SV876PM04Z51ZVMXP17Y9N
+[2024.11.15-23.17.08:684][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/SV876PM04Z51ZVMXP17Y9N9FD04BC14CFF0B881B502399898F37B3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/IV/SV876PM04Z51ZVMXP17Y9N.uasset'
+[2024.11.15-23.17.08:689][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/N6/NJRH2L7AX8PTQ8WN21GMP2
+[2024.11.15-23.17.08:689][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/NJRH2L7AX8PTQ8WN21GMP2553778F94E40E09CBB7D62ADCDF0B435.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/N6/NJRH2L7AX8PTQ8WN21GMP2.uasset'
+[2024.11.15-23.17.08:694][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/1Y/JMM7FF8TDEJWLW8UDL6AWQ
+[2024.11.15-23.17.08:694][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JMM7FF8TDEJWLW8UDL6AWQ961528EB41609AEEBE0BE49EC107CAFB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/1/1Y/JMM7FF8TDEJWLW8UDL6AWQ.uasset'
+[2024.11.15-23.17.08:700][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/YJ/GF3X350U2DL7E2C02HQPC3
+[2024.11.15-23.17.08:700][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/GF3X350U2DL7E2C02HQPC3342CF6B9483B3FD7B7D7538E0B24ABD3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/YJ/GF3X350U2DL7E2C02HQPC3.uasset'
+[2024.11.15-23.17.08:706][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/B5/CAJR4N32IXRCBNOW3UTM5G
+[2024.11.15-23.17.08:706][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/CAJR4N32IXRCBNOW3UTM5G24448B7F4F491EFB59375CA161E44A9F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/B5/CAJR4N32IXRCBNOW3UTM5G.uasset'
+[2024.11.15-23.17.08:710][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/7H/IO1AZGH8ZVBDF2JUUM5WA3
+[2024.11.15-23.17.08:710][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/IO1AZGH8ZVBDF2JUUM5WA3AEC9CAC349FCC224AB6F77A983C3AD65.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/7H/IO1AZGH8ZVBDF2JUUM5WA3.uasset'
+[2024.11.15-23.17.08:716][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/KM/MRYAD0XG0RHAMHPD8WWJH3
+[2024.11.15-23.17.08:716][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MRYAD0XG0RHAMHPD8WWJH3F7DCC87640A4BD72DC0AC892F872A09E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/KM/MRYAD0XG0RHAMHPD8WWJH3.uasset'
+[2024.11.15-23.17.08:722][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/9N/JSF0WJW6CXIOWNXN1Y6P44
+[2024.11.15-23.17.08:722][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JSF0WJW6CXIOWNXN1Y6P443FD108F14281FE1B214E5DA2B5B1B9BE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/9N/JSF0WJW6CXIOWNXN1Y6P44.uasset'
+[2024.11.15-23.17.08:727][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/WP/LN60SUHBCXMEHLIOS4P9WM
+[2024.11.15-23.17.08:727][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/LN60SUHBCXMEHLIOS4P9WME4D2F20645F967006C449086661B67F0.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/WP/LN60SUHBCXMEHLIOS4P9WM.uasset'
+[2024.11.15-23.17.08:733][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/MB/4WA589Y037UZZDRDBQCXK2
+[2024.11.15-23.17.08:733][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/4WA589Y037UZZDRDBQCXK2621F25FC40069209F0AAF69548B92560.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/MB/4WA589Y037UZZDRDBQCXK2.uasset'
+[2024.11.15-23.17.08:739][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/M4/JID9HWLRVRPL7K2PQ9OEQW
+[2024.11.15-23.17.08:739][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/JID9HWLRVRPL7K2PQ9OEQW7FBA871F4F6C4EC04BB75BBB1ED3813A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/M4/JID9HWLRVRPL7K2PQ9OEQW.uasset'
+[2024.11.15-23.17.08:744][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/I7/M7Z0U0PLPG1D7CO2FIKW6O
+[2024.11.15-23.17.08:744][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/M7Z0U0PLPG1D7CO2FIKW6O58A064AB4A32AD9E9C274FA2B8B9E24E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/I7/M7Z0U0PLPG1D7CO2FIKW6O.uasset'
+[2024.11.15-23.17.08:750][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/A2/UPIFTCOKAHGQ70AGV1HHHX
+[2024.11.15-23.17.08:750][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/UPIFTCOKAHGQ70AGV1HHHXC99F6BC94539426B58296CB979BB36CC.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/A2/UPIFTCOKAHGQ70AGV1HHHX.uasset'
+[2024.11.15-23.17.08:756][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/YB/5ZUVYXNC7I4DXAOQA6I9RX
+[2024.11.15-23.17.08:756][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/5ZUVYXNC7I4DXAOQA6I9RX55D8C17445BCDC5E97DAE884F33116FD.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/YB/5ZUVYXNC7I4DXAOQA6I9RX.uasset'
+[2024.11.15-23.17.08:761][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/V7/BHTSHPY259KDLCYM175KMI
+[2024.11.15-23.17.08:761][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BHTSHPY259KDLCYM175KMI33F299A641C3989C221540A33F61C1EE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/V7/BHTSHPY259KDLCYM175KMI.uasset'
+[2024.11.15-23.17.08:767][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/N1/BN1SYHOTEGTWTE15Q49HC2
+[2024.11.15-23.17.08:767][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BN1SYHOTEGTWTE15Q49HC2876B40F94CAA2CFC6CB514966A302B28.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/N1/BN1SYHOTEGTWTE15Q49HC2.uasset'
+[2024.11.15-23.17.08:772][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/MA/PFRQ2UPJWUBWO2SQ4FMQOV
+[2024.11.15-23.17.08:772][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/PFRQ2UPJWUBWO2SQ4FMQOV71EBB0BE42AFAC7040F3BBA076BFC623.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/MA/PFRQ2UPJWUBWO2SQ4FMQOV.uasset'
+[2024.11.15-23.17.08:777][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/3V/HQV296XZCHS6L4EW2E1BRC
+[2024.11.15-23.17.08:777][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/HQV296XZCHS6L4EW2E1BRC6CFE88814D4FA7FF0227B18746271F25.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/3V/HQV296XZCHS6L4EW2E1BRC.uasset'
+[2024.11.15-23.17.08:782][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/A/B2/NII7STKIZJO5PPM79QVXT7
+[2024.11.15-23.17.08:782][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/NII7STKIZJO5PPM79QVXT79BEE1D8A409BEA98332FAC8E5FC2E425.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/A/B2/NII7STKIZJO5PPM79QVXT7.uasset'
+[2024.11.15-23.17.08:787][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/CW/3IZNG9VIE1J85PMJ1H6HZO
+[2024.11.15-23.17.08:788][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/3IZNG9VIE1J85PMJ1H6HZO4BD1F83344C2A9F05ED7B1A0FFD98DC6.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/CW/3IZNG9VIE1J85PMJ1H6HZO.uasset'
+[2024.11.15-23.17.08:793][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/PN/OECG0Z4FPKEAM3E5H964WE
+[2024.11.15-23.17.08:793][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/OECG0Z4FPKEAM3E5H964WEDB7EA1C242155773F4FF138F1CA3E20A.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/PN/OECG0Z4FPKEAM3E5H964WE.uasset'
+[2024.11.15-23.17.08:798][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/DM/188A2BQ1RIE7Z60Z9W4QOZ
+[2024.11.15-23.17.08:798][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/188A2BQ1RIE7Z60Z9W4QOZD3548EF4467AC2D4566EE3BE92482300.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/DM/188A2BQ1RIE7Z60Z9W4QOZ.uasset'
+[2024.11.15-23.17.08:804][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/IB/M1LIDM3AJW0D1OHK2LTGZO
+[2024.11.15-23.17.08:804][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/M1LIDM3AJW0D1OHK2LTGZO57AFC31041300383CD413F95D729A576.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/IB/M1LIDM3AJW0D1OHK2LTGZO.uasset'
+[2024.11.15-23.17.08:811][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/4/L6/UFSX52JZKLBS8GBECAPWA1
+[2024.11.15-23.17.08:811][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/UFSX52JZKLBS8GBECAPWA10B61BC83429119AE7938419A9C5A4C0F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/4/L6/UFSX52JZKLBS8GBECAPWA1.uasset'
+[2024.11.15-23.17.08:816][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/3/U0/XR04PZJ85DX61CHE80X17S
+[2024.11.15-23.17.08:816][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/XR04PZJ85DX61CHE80X17SED1B25424DA96439CCB27FBDA269D843.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/3/U0/XR04PZJ85DX61CHE80X17S.uasset'
+[2024.11.15-23.17.08:822][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/18/OP2NSNORVY8O8RU2LW15GE
+[2024.11.15-23.17.08:822][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/OP2NSNORVY8O8RU2LW15GE8D8C0D33480DCB66A9DA56BD4932D143.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/18/OP2NSNORVY8O8RU2LW15GE.uasset'
+[2024.11.15-23.17.08:827][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/EQ/OWXOD7NCBXFF3SOUI26SYE
+[2024.11.15-23.17.08:827][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/OWXOD7NCBXFF3SOUI26SYE84B48538429EF0D4395D50853B76C371.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/EQ/OWXOD7NCBXFF3SOUI26SYE.uasset'
+[2024.11.15-23.17.08:832][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/HK/9AIGMHR38U2AU774AUCSUL
+[2024.11.15-23.17.08:832][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/9AIGMHR38U2AU774AUCSULCFF5AD8C413FA111DD9D4D98F502A2CB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/HK/9AIGMHR38U2AU774AUCSUL.uasset'
+[2024.11.15-23.17.08:838][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/4O/42606ZKWDO1B5ISBZV3TI3
+[2024.11.15-23.17.08:838][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/42606ZKWDO1B5ISBZV3TI30BAA883C473D52EE38EDE3A845517782.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/4O/42606ZKWDO1B5ISBZV3TI3.uasset'
+[2024.11.15-23.17.08:843][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/AV/I7CTNBNK6GPOJT8ENHYVS0
+[2024.11.15-23.17.08:843][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/I7CTNBNK6GPOJT8ENHYVS04509925F449B4A0792BAE0AB9C1D3D5E.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/AV/I7CTNBNK6GPOJT8ENHYVS0.uasset'
+[2024.11.15-23.17.08:848][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/7/4P/8Y7CB8GPCCCEG8B2DTA9T7
+[2024.11.15-23.17.08:848][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/8Y7CB8GPCCCEG8B2DTA9T7018F9C454E8842C18A20EAAE9D578072.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/7/4P/8Y7CB8GPCCCEG8B2DTA9T7.uasset'
+[2024.11.15-23.17.08:853][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/6/6Y/ZB9YYBLVXU2NREKEGR6QY2
+[2024.11.15-23.17.08:853][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/ZB9YYBLVXU2NREKEGR6QY26CCB4C7C4EA59724FF10CAA63092B807.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/6/6Y/ZB9YYBLVXU2NREKEGR6QY2.uasset'
+[2024.11.15-23.17.08:859][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/43/YCYK8EOQZOIAMBM25IMBBV
+[2024.11.15-23.17.08:859][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/YCYK8EOQZOIAMBM25IMBBVF775C8F54C25026882E812B90EDA88EF.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/43/YCYK8EOQZOIAMBM25IMBBV.uasset'
+[2024.11.15-23.17.08:864][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/9R/1AT9HBE0NGZW87RHLNINVA
+[2024.11.15-23.17.08:864][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/1AT9HBE0NGZW87RHLNINVA0964606B4B80293FC86F658AA8A572F3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/B/9R/1AT9HBE0NGZW87RHLNINVA.uasset'
+[2024.11.15-23.17.08:869][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/2/TO/3355T0FAP6MPTO7LJJZK35
+[2024.11.15-23.17.08:869][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/3355T0FAP6MPTO7LJJZK3502A3A7C64BB30CFDBFE5FB9D12E96BF1.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/2/TO/3355T0FAP6MPTO7LJJZK35.uasset'
+[2024.11.15-23.17.08:874][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/8/TF/CVVVGMNQ8YTPWNIVERH6U7
+[2024.11.15-23.17.08:874][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/CVVVGMNQ8YTPWNIVERH6U704E11AB346CAD671E9000A89BB0867AB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/8/TF/CVVVGMNQ8YTPWNIVERH6U7.uasset'
+[2024.11.15-23.17.08:880][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/NS/BE73VODIKSF2A7LF3NUJAB
+[2024.11.15-23.17.08:880][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/BE73VODIKSF2A7LF3NUJAB0F1BA35A446D38B4698CA180CBBD2366.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/NS/BE73VODIKSF2A7LF3NUJAB.uasset'
+[2024.11.15-23.17.08:885][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/C/18/845BPB85178O88Q19GTVMR
+[2024.11.15-23.17.08:885][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/845BPB85178O88Q19GTVMRC0FEC55240C0843AC8A98FA4CD7165EB.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/C/18/845BPB85178O88Q19GTVMR.uasset'
+[2024.11.15-23.17.08:891][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/E/L7/L414OZY3ZTO7JYLF1LFUPW
+[2024.11.15-23.17.08:891][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/L414OZY3ZTO7JYLF1LFUPW038CA9AB4D06A93A7810C4A29ED3C81F.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/E/L7/L414OZY3ZTO7JYLF1LFUPW.uasset'
+[2024.11.15-23.17.08:892][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE] ([1] browsable assets)...
+[2024.11.15-23.17.08:892][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE]
+[2024.11.15-23.17.08:893][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE
+[2024.11.15-23.17.08:893][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/992VCD0AQU4VY2ZN1PJ3EE3F076D7B4FDCE8771F6A6CA787F9449B.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE.uasset'
+[2024.11.15-23.17.08:894][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L] ([1] browsable assets)...
+[2024.11.15-23.17.08:894][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L]
+[2024.11.15-23.17.08:895][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L
+[2024.11.15-23.17.08:895][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/N8ENOUWN9GJ4NMC7S6Y46L75510D534C8508ECC995319ABE7D40E8.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L.uasset'
+[2024.11.15-23.17.08:897][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q] ([1] browsable assets)...
+[2024.11.15-23.17.08:897][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q]
+[2024.11.15-23.17.08:897][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q
+[2024.11.15-23.17.08:897][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/SMML4DYG1QJUP9OTCD4H0Q85F4B28146D8D50C9FDB5F8BFFB75910.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q.uasset'
+[2024.11.15-23.17.08:900][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/9/P6/MET8CF70WUALRGMHQZ2UXV
+[2024.11.15-23.17.08:900][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/MET8CF70WUALRGMHQZ2UXV4CF2788F455ADC915016E0A03FF046EE.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/9/P6/MET8CF70WUALRGMHQZ2UXV.uasset'
+[2024.11.15-23.17.08:902][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/0/68/4XJOM5J1Q0E4XF4EAAB2DZ
+[2024.11.15-23.17.08:902][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/4XJOM5J1Q0E4XF4EAAB2DZ79B8E3B545FC39C2488AE5AF54CD8CCC.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/0/68/4XJOM5J1Q0E4XF4EAAB2DZ.uasset'
+[2024.11.15-23.17.08:904][ 89]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5
+[2024.11.15-23.17.08:904][ 89]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/6CE7M2NGIPJBQT4C06Y0Y5A1ED38674F8F3594EA7A45ACD915F5F3.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5.uasset'
+[2024.11.15-23.17.08:908][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.51 sec
+[2024.11.15-23.17.08:918][ 89]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Map_HLOD0_Instancing
+/Game/__ExternalActors__/Map/5/PN/679A47FIAS5NIV6T6OABSZ
+/Game/__ExternalObjects__/Map/5/UQ/MAL0YGWBLY7JBKHB4O7CZ1
+/Game/__ExternalObjects__/Map/E/NB/0H0KZIHPYOZRDWO7ZL7D2B
+/Game/__ExternalObjects__/Map/A/YG/RZRJ611Z0F41HZ76FDNJZG
+/Game/__ExternalObjects__/Map/D/2S/8JKDXCMJVM57O86XKM82G6
+/Game/__ExternalObjects__/Map/D/53/7N9Q80CF4G806X6J7YAIQ4
+/Game/__ExternalObjects__/Map/6/CN/JA4395GYL2S29V4HOLB2OS
+/Game/__ExternalActors__/Map/9/WS/QX4C0DOFI76YCSAYNO5JQE
+/Game/__ExternalActors__/Map/4/IQ/KU2P0B5S35RKRJFG045BGU
+/Game/__ExternalActors__/Map/2/4R/RQ87O5DWV1GS3RM83S87ER
+/Game/__ExternalActors__/Map/0/04/GXGCZBGQIT6XOIC2YMCA7Y
+/Game/__ExternalActors__/Map/4/DK/E33MPSK7Y43XTDGO8QS1RE
+/Game/__ExternalActors__/Map/5/XN/7HQAL0TRFJP5JVHT0P65QE
+/Game/__ExternalActors__/Map/C/A6/4GAGL02KME4WKDV2QV6BZY
+/Game/__ExternalActors__/Map/8/9T/EMNDYTIV2ER8WSS8BD6EBZ
+/Game/__ExternalActors__/Map/C/80/YMNYIN8O1DQIBPX0Z48GFK
+/Game/__ExternalActors__/Map/7/AA/VQXSQJQSNBQTG1ZXKITNOW
+/Game/__ExternalActors__/Map/A/CW/VP8XOF1ZIZ9XTB0YHCY1JZ
+/Game/__ExternalActors__/Map/6/AN/XC4LASUJDOS1WZEH14CVIY
+/Game/__ExternalActors__/Map/D/6C/T84FMNLLAK0KC7KWY38PP5
+/Game/__ExternalActors__/Map/5/LZ/DKEDVXQ4EXND5KFSD4YMCC
+/Game/__ExternalActors__/Map/E/5W/85JFAHRIBCHECAUYBS52A2
+/Game/__ExternalActors__/Map/6/6I/RVJ5TN14WZKMGHEEPHZ4NV
+/Game/__ExternalActors__/Map/D/JD/ROBGTJ7D13UMZR7GWUOWVG
+/Game/__ExternalActors__/Map/A/JH/B2XZ1MQA64FMRSZQPHP7TH
+/Game/__ExternalActors__/Map/4/UL/11ZYTYTC2EV89QGZE3ILJI
+/Game/__ExternalActors__/Map/9/QH/OJZ5KGC0RUNUES28JGDRRU
+/Game/__ExternalActors__/Map/A/CL/OEC6CWQQBTHJZ5SMC6AZQF
+/Game/__ExternalActors__/Map/8/2I/2W1NXZ2CCKAQ9O5XETKC31
+/Game/__ExternalActors__/Map/E/03/VL5J2ISCHVB4E8AWWX2N73
+/Game/__ExternalActors__/Map/1/UN/HGTODXDC2O1HWZRYYXJDWE
+/Game/__ExternalActors__/Map/7/Q4/P0NKG51JRER9B7WG1PGKI3
+/Game/__ExternalActors__/Map/5/QC/0Q19D74XXHXWZ6T2OMQ0FU
+/Game/__ExternalActors__/Map/D/K5/1YYFA62TW3XM69BUOPP3RI
+/Game/__ExternalActors__/Map/3/J4/VNYQ9LGJA1EA0GFLNZHLLA
+/Game/__ExternalActors__/Map/3/7U/NWAF2EXZHC9V443SOVX96J
+/Game/__ExternalActors__/Map/4/W2/XWSOP3RAXUVMNKNSIJ07EV
+/Game/__ExternalActors__/Map/E/4Q/KNMT73ZN0DN0DV8F1OPWK7
+/Game/__ExternalActors__/Map/E/4M/BK6Y93SN9LDAXUMBKT701S
+/Game/__ExternalActors__/Map/9/0Y/565FMOSHV5TPZ5E2DI88SE
+/Game/__ExternalActors__/Map/8/X5/ZRZKCZEJCOK5GVABFDZFYF
+/Game/__ExternalActors__/Map/0/W6/1XDV3S0ZY4DFZ0AYUEDC4V
+/Game/__ExternalActors__/Map/A/QS/MDP1ZOU1GLS16HZ1DK7B4P
+/Game/__ExternalActors__/Map/C/PC/BVKMJ8915U2LQO7K6FTHBA
+/Game/__ExternalActors__/Map/7/10/ZATGH84UOQKZ15WMTUYNKZ
+/Game/__ExternalActors__/Map/6/XA/AJ9CX7D6H6384NZMEXQ6I2
+/Game/__ExternalActors__/Map/7/32/Z7Z992PM3V5LF0FCSQ5NGL
+/Game/__ExternalActors__/Map/D/3Z/RVSK18RI3EX9RR6YL2Y3WY
+/Game/__ExternalActors__/Map/D/0P/99RBU14ZFZ5FTRCKDA5FR0
+/Game/__ExternalActors__/Map/7/AI/U9RJW328N60Q0NHVC9VOWZ
+/Game/__ExternalActors__/Map/1/V5/6ZZ8VADNTPCIAIQUDAZI7H
+/Game/__ExternalActors__/Map/6/9E/0NHG3CUM35B85P5IGHOX6K
+/Game/__ExternalActors__/Map/9/F0/QBKBVVXD1UPGAYW2Z3QMND
+/Game/__ExternalActors__/Map/5/XD/DXMB06G1JLUSJZA014S2WZ
+/Game/__ExternalActors__/Map/4/DH/YRCT0MC14LRMZ6JZ1LVAT0
+/Game/__ExternalActors__/Map/A/3C/BTZN9DYT5MX5M89TM22K92
+/Game/__ExternalActors__/Map/0/QG/6SPY00BH3MKMLZKSORNKUJ
+/Game/__ExternalActors__/Map/3/JA/MOTMDFD1POA6BUR2I5TBYY
+/Game/__ExternalActors__/Map/E/T6/A572CY7HDMFD8DTARO64XO
+/Game/__ExternalActors__/Map/3/HO/38BJ8O90S6O9IN5RHBN70K
+/Game/__ExternalActors__/Map/4/7Z/WPEAWR3YEUIDDF8L1L5EWH
+/Game/__ExternalActors__/Map/1/6L/TMKCBBKM8KMSV8C32IGH0Q
+/Game/__ExternalActors__/Map/2/C9/X6HBSFDC97YEDR95OKQZDZ
+/Game/__ExternalActors__/Map/5/43/HR8T8YWN6NBRXD8HKW4BO0
+/Game/__ExternalActors__/Map/6/7D/ZYD898LDUQL87P4N61A900
+/Game/__ExternalActors__/Map/A/QB/D8MJSWQ44Q3FBFCHCS719H
+/Game/__ExternalActors__/Map/0/0F/AP0QJU5IK0USI7V0GRYKDM
+/Game/__ExternalActors__/Map/A/7E/743R53ALHD6FAEHQL3K4GY
+/Game/__ExternalActors__/Map/0/42/PTCPZFXNU43F212UZ7XH16
+/Game/__ExternalActors__/Map/C/94/1QTZ2XZ7SHR0W4CGOY710R
+/Game/__ExternalActors__/Map/7/OE/WNMQJLYENL8W30LV0MR95K
+/Game/__ExternalActors__/Map/9/0S/C5CZWG9Y1D0YAV4YMBOSNX
+/Game/__ExternalActors__/Map/7/U0/DATNQZ7SQWPBLOR1C7D4XD
+/Game/__ExternalActors__/Map/D/A1/YMYLCGN8S5YZMNMNYKESJZ
+/Game/__ExternalActors__/Map/7/0K/V4PX8NV6D7C0SHGQC1G2Y5
+/Game/__ExternalActors__/Map/3/ZK/YGBAY0IN3DUZ477X8KUQGF
+/Game/__ExternalActors__/Map/8/W2/JDGIJ9RP5IFGXH8TF10ZWR
+/Game/__ExternalActors__/Map/A/29/H08A5HJQ4ZIZLHB1LXNIFZ
+/Game/__ExternalActors__/Map/8/XM/R14ML0CYVT0201G7BJNF84
+/Game/__ExternalActors__/Map/D/IN/HB1D6AXUH8NQSZ1VR2T37L
+/Game/__ExternalActors__/Map/E/FF/MA8GS3VLNXK9J8F8U9PBKC
+/Game/__ExternalActors__/Map/3/XR/2BWLHU4O3CLBGO8ZXRIRNG
+/Game/__ExternalActors__/Map/D/UX/3X46MGBYLKX0HGFGQ36Z69
+/Game/__ExternalActors__/Map/1/T6/A9ITE0LTNEHY9CDTMMG0VT
+/Game/__ExternalActors__/Map/A/0F/DKLO7C1FBD4SCOQ1AMG4ET
+/Game/__ExternalActors__/Map/D/DF/H5YX22U0AMCPUB45KCF2CJ
+/Game/__ExternalActors__/Map/2/3R/JONEVLHYPF92B7LFF5SWJH
+/Game/__ExternalActors__/Map/6/PB/7XAQTKWNILFOESGEWMOK7S
+/Game/__ExternalActors__/Map/2/AT/Q3KO5SL5FB1ZMUZU0O5ODS
+/Game/__ExternalActors__/Map/1/DC/Q6QL1BJ8H86YMUDYXE769V
+/Game/__ExternalActors__/Map/B/ST/34MRUQVURK1YJ5233DYGK6
+/Game/__ExternalActors__/Map/5/C5/2KHBJQGFH76AG87YY3HABQ
+/Game/__ExternalActors__/Map/D/YN/K47T0F67A34AN06DMPUVLL
+/Game/__ExternalActors__/Map/6/3K/MSQC9BQN6KYNLML01U076H
+/Game/__ExternalActors__/Map/0/6Z/N9FM9MOY57FKAK2VU5GDU4
+/Game/__ExternalActors__/Map/5/23/TLKH2MJMDEL6WVID1MVL1J
+/Game/__ExternalActors__/Map/A/2X/O8Y5RH1ARBZJDGJKSWTO7E
+/Game/__ExternalActors__/Map/1/ZE/R3G1M08KZBUPS6QC2DI7SC
+/Game/__ExternalActors__/Map/9/HM/WPRUG6LH79UMCZOXPVMMI3
+/Game/__ExternalActors__/Map/B/DJ/D0KB8DKG79S1LU72XH1M1F
+/Game/__ExternalActors__/Map/8/U1/1WK0OZQ3A2T3JL3ISQQOAB
+/Game/__ExternalActors__/Map/C/N1/P5KXCBQODTZQRVHPIAPC7A
+/Game/__ExternalActors__/Map/7/8S/STMSF8VHTVJIYH10P5CS2U
+/Game/__ExternalActors__/Map/4/L2/3KQUQ2GZS9QWGRAHO2Y5OT
+/Game/__ExternalActors__/Map/B/O5/ZLD257B2OLB6OJG60FJRW1
+/Game/__ExternalActors__/Map/1/IV/SV876PM04Z51ZVMXP17Y9N
+/Game/__ExternalActors__/Map/2/N6/NJRH2L7AX8PTQ8WN21GMP2
+/Game/__ExternalActors__/Map/1/1Y/JMM7FF8TDEJWLW8UDL6AWQ
+/Game/__ExternalActors__/Map/2/YJ/GF3X350U2DL7E2C02HQPC3
+/Game/__ExternalActors__/Map/D/B5/CAJR4N32IXRCBNOW3UTM5G
+/Game/__ExternalActors__/Map/A/7H/IO1AZGH8ZVBDF2JUUM5WA3
+/Game/__ExternalActors__/Map/8/KM/MRYAD0XG0RHAMHPD8WWJH3
+/Game/__ExternalActors__/Map/2/9N/JSF0WJW6CXIOWNXN1Y6P44
+/Game/__ExternalActors__/Map/0/WP/LN60SUHBCXMEHLIOS4P9WM
+/Game/__ExternalActors__/Map/3/MB/4WA589Y037UZZDRDBQCXK2
+/Game/__ExternalActors__/Map/C/M4/JID9HWLRVRPL7K2PQ9OEQW
+/Game/__ExternalActors__/Map/2/I7/M7Z0U0PLPG1D7CO2FIKW6O
+/Game/__ExternalActors__/Map/C/A2/UPIFTCOKAHGQ70AGV1HHHX
+/Game/__ExternalActors__/Map/B/YB/5ZUVYXNC7I4DXAOQA6I9RX
+/Game/__ExternalActors__/Map/D/V7/BHTSHPY259KDLCYM175KMI
+/Game/__ExternalActors__/Map/E/N1/BN1SYHOTEGTWTE15Q49HC2
+/Game/__ExternalActors__/Map/2/MA/PFRQ2UPJWUBWO2SQ4FMQOV
+/Game/__ExternalActors__/Map/B/3V/HQV296XZCHS6L4EW2E1BRC
+/Game/__ExternalActors__/Map/A/B2/NII7STKIZJO5PPM79QVXT7
+/Game/__ExternalActors__/Map/6/CW/3IZNG9VIE1J85PMJ1H6HZO
+/Game/__ExternalActors__/Map/9/PN/OECG0Z4FPKEAM3E5H964WE
+/Game/__ExternalActors__/Map/0/DM/188A2BQ1RIE7Z60Z9W4QOZ
+/Game/__ExternalActors__/Map/3/IB/M1LIDM3AJW0D1OHK2LTGZO
+/Game/__ExternalActors__/Map/4/L6/UFSX52JZKLBS8GBECAPWA1
+/Game/__ExternalActors__/Map/3/U0/XR04PZJ85DX61CHE80X17S
+/Game/__ExternalActors__/Map/0/18/OP2NSNORVY8O8RU2LW15GE
+/Game/__ExternalActors__/Map/9/EQ/OWXOD7NCBXFF3SOUI26SYE
+/Game/__ExternalActors__/Map/6/HK/9AIGMHR38U2AU774AUCSUL
+/Game/__ExternalActors__/Map/0/4O/42606ZKWDO1B5ISBZV3TI3
+/Game/__ExternalActors__/Map/9/AV/I7CTNBNK6GPOJT8ENHYVS0
+/Game/__ExternalActors__/Map/7/4P/8Y7CB8GPCCCEG8B2DTA9T7
+/Game/__ExternalActors__/Map/6/6Y/ZB9YYBLVXU2NREKEGR6QY2
+/Game/__ExternalActors__/Map/2/43/YCYK8EOQZOIAMBM25IMBBV
+/Game/__ExternalActors__/Map/B/9R/1AT9HBE0NGZW87RHLNINVA
+/Game/__ExternalActors__/Map/2/TO/3355T0FAP6MPTO7LJJZK35
+/Game/__ExternalActors__/Map/8/TF/CVVVGMNQ8YTPWNIVERH6U7
+/Game/__ExternalActors__/Map/D/NS/BE73VODIKSF2A7LF3NUJAB
+/Game/__ExternalActors__/Map/C/18/845BPB85178O88Q19GTVMR
+/Game/__ExternalActors__/Map/E/L7/L414OZY3ZTO7JYLF1LFUPW
+/Game/__ExternalObjects__/Map/F/2Z/992VCD0AQU4VY2ZN1PJ3EE
+/Game/__ExternalObjects__/Map/9/C9/N8ENOUWN9GJ4NMC7S6Y46L
+/Game/__ExternalObjects__/Map/8/Q8/SMML4DYG1QJUP9OTCD4H0Q
+/Game/__ExternalActors__/Map/9/P6/MET8CF70WUALRGMHQZ2UXV
+/Game/__ExternalActors__/Map/0/68/4XJOM5J1Q0E4XF4EAAB2DZ
+/Game/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5
+[2024.11.15-23.17.08:937][ 89]LogFileHelpers: Saving map 'Map' took 1.812
+[2024.11.15-23.17.08:937][ 89]Cmd: MAP LOAD FILE="C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.15-23.17.08:987][ 89]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2024.11.15-23.17.08:988][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.15-23.17.08:988][ 89]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Map.Map
+[2024.11.15-23.17.09:004][ 89]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.15-23.17.09:016][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.11.15-23.17.09:017][ 89]LogStreaming: Display: FlushAsyncLoading(489): 1 QueuedPackages, 0 AsyncPackages
+[2024.11.15-23.17.09:021][ 89]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map'.
+[2024.11.15-23.17.09:021][ 89]LogChaosDD: Creating Chaos Debug Draw Scene for world Map
+[2024.11.15-23.17.09:023][ 89]LogWorldPartition: ULevel::OnLevelLoaded(Map)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.11.15-23.17.09:023][ 89]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.15-23.17.09:023][ 89]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Map.Map, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.15-23.17.09:225][ 89]LogWorldPartition: Display: WorldPartition initialize took 202.324 ms (total: 475.247 ms)
+[2024.11.15-23.17.09:691][ 89]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.15-23.17.09:703][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.11.15-23.17.09:707][ 89]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.15-23.17.09:708][ 89]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.079ms to complete.
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: Display: Starting to validate 152 assets
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: Enabled validators:
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.15-23.17.09:782][ 89]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.15-23.17.09:782][ 89]AssetCheck: /Game/Map Validating asset
+[2024.11.15-23.17.09:782][ 89]AssetCheck: /Game/Map_HLOD0_Instancing Validating asset
+[2024.11.15-23.17.10:038][ 89]LogAutomationController: Ignoring very large delta of 11.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.15-23.17.10:111][ 91]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.15-23.17.41:031][122]Cmd: DELETE
+[2024.11.15-23.17.41:031][122]Cmd: ACTOR DELETE
+[2024.11.15-23.17.41:035][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:052][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:068][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:083][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:098][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:112][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:124][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:139][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:152][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:165][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:178][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:190][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:203][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:215][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:226][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:237][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:249][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:260][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:271][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:281][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:292][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:302][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:312][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:322][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:332][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:341][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:350][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:358][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:368][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:376][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:385][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:394][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:401][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:410][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:417][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:424][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:432][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:438][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:445][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:452][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:458][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:464][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:471][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:476][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:481][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:488][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:493][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:499][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:504][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:509][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:513][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:517][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:522][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:527][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:531][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:535][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:538][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:542][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:545][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:549][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:553][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:556][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:559][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:562][122]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.11.15-23.17.41:576][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.11.15-23.17.41:581][122]LogEditorActor: Deleted 64 Actors (0.550 secs)
+[2024.11.15-23.17.43:938][343]Cmd: DELETE
+[2024.11.15-23.17.43:938][343]Cmd: ACTOR DELETE
+[2024.11.15-23.17.43:947][343]LogEditorActor: Deleted Actor: Landscape
+[2024.11.15-23.17.43:958][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.11.15-23.17.43:963][343]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.11.15-23.17.57:968][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.15-23.17.58:070][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.11.15-23.17.58:083][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.11.15-23.17.58:093][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.11.15-23.17.58:112][897]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5
+[2024.11.15-23.17.58:113][897]LogSavePackage: Moving 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Saved/6CE7M2NGIPJBQT4C06Y0Y59F4ED19D4ED6E0F39F0396A998D22A32.tmp' to 'C:/Users/c-for/Desktop/Unreal/FlappyBird/FlappyBird/Content/__ExternalActors__/Map/D/C1/6CE7M2NGIPJBQT4C06Y0Y5.uasset'
+[2024.11.15-23.17.58:134][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.239 ms (total: 1.68 sec)
+[2024.11.15-23.17.58:168][897]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.15-23.17.58:168][897]LogContentValidation: Enabled validators:
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.15-23.17.58:168][897]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.15-23.17.58:168][897]AssetCheck: /Game/Map Validating asset

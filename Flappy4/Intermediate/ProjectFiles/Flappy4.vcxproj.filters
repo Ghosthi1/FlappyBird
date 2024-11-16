@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Flappy4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Flappy4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Flappy4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Flappy4.code-workspace" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Flappy4">
+      <UniqueIdentifier>{E59402B9-5982-33FE-B03A-F408DA53ED32}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Flappy4\Flappy.cpp">
+      <Filter>Source\Flappy4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Flappy4\Flappy.h">
+      <Filter>Source\Flappy4</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\Flappy4\Flappy4.Build.cs">
+      <Filter>Source\Flappy4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Flappy4\Flappy4.cpp">
+      <Filter>Source\Flappy4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Flappy4\Flappy4.h">
+      <Filter>Source\Flappy4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\unrealeditor\\inc\\flappy4\\uht\\flappy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\x64\\flappy4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\flappy4\\definitions.flappy4.h",
+            "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\source\\flappy4\\flappy.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\unreal\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\unrealeditor\\inc\\flappy4\\uht\\flappy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

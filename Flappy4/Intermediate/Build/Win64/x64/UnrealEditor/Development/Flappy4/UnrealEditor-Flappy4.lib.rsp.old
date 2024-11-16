@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Flappy4.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\c-for\Desktop\Unreal\FlappyBird\Flappy4\Intermediate\Build\Win64\x64\Flappy4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\c-for\Desktop\Unreal\FlappyBird\Flappy4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flappy4\Flappy4.cpp.obj"
+"C:\Users\c-for\Desktop\Unreal\FlappyBird\Flappy4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flappy4\PerModuleInline.gen.cpp.obj"
+"C:\Users\c-for\Desktop\Unreal\FlappyBird\Flappy4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flappy4\Default.rc2.res"
+/OUT:"C:\Users\c-for\Desktop\Unreal\FlappyBird\Flappy4\Intermediate\Build\Win64\x64\UnrealEditor\Development\Flappy4\UnrealEditor-Flappy4.lib"

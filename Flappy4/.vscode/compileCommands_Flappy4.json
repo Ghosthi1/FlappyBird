@@ -1,0 +1,26 @@
+[
+	{
+		"file": "C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\Source\\Flappy4\\Flappy4.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\.vscode\\compileCommands_Flappy4\\Flappy4.1.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\Source\\Flappy4\\Flappy4.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\.vscode\\compileCommands_Flappy4\\Flappy4.1.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\Source\\Flappy4\\Flappy4.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\c-for\\Desktop\\Unreal\\FlappyBird\\Flappy4\\.vscode\\compileCommands_Flappy4\\Flappy4.1.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.5\\Engine\\Source"
+	}
+]

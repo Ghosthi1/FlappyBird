@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\flappy4\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\x64\\flappy4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\c-for\\desktop\\unreal\\flappybird\\flappy4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\flappy4\\definitions.flappy4.h",
+            "d:\\unreal\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

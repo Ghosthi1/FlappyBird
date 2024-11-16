@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 717913546895289204}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: End
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 2282131211928758285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.56, y: -2.46, z: 0}
+  m_LocalPosition: {x: 0, y: -2.46, z: 0}
   m_LocalScale: {x: 1, y: 4.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,8 +97,8 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2282131211928758285}
-  m_BodyType: 2
-  m_Simulated: 0
+  m_BodyType: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -114,7 +114,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 7
 --- !u!61 &717913546895289204
 BoxCollider2D:
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 5733994158342647542}
   m_Layer: 0
   m_Name: Pipes
-  m_TagString: Player
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,9 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df2e2e8e140f71b44b96f3dd2e686dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbodyPipeTop: {fileID: 2932305630605538705}
-  rigidbodyPipeBottom: {fileID: 7744355644926238639}
-  rigidbodyScore: {fileID: 9012906052806335911}
+  rigidbodyPipe: {fileID: 5156684264593616122}
   moveSpeed: 4
 --- !u!1 &5903931151673690461
 GameObject:
@@ -241,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 5903931151673690461}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.56, y: 1.13, z: 0}
+  m_LocalPosition: {x: 0, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 3.2214377, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -389,7 +387,7 @@ GameObject:
   - component: {fileID: 2655565018712711441}
   m_Layer: 0
   m_Name: Top
-  m_TagString: End
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +401,7 @@ Transform:
   m_GameObject: {fileID: 7608836723990430620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.56, y: 4.78, z: 0}
+  m_LocalPosition: {x: 0, y: 4.78, z: 0}
   m_LocalScale: {x: 1, y: 4.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -472,8 +470,8 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7608836723990430620}
-  m_BodyType: 2
-  m_Simulated: 0
+  m_BodyType: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -489,7 +487,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 7
 --- !u!61 &2655565018712711441
 BoxCollider2D:

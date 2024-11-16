@@ -17,8 +17,6 @@ public class MoveToLeft : MonoBehaviour
     void Update()
     {
         MovePipeToLeft();
-
-
     }
 
     private void MovePipeToLeft(){

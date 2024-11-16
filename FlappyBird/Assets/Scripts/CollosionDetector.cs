@@ -3,32 +3,21 @@ using UnityEngine;
 
 public class CollosionDetector : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        
-    }
 
     void OnCollisionEnter2D(Collision2D col){
         string tagString = col.gameObject.tag;
+        //compaers the tag from the collision to determine output
         switch (tagString){
-            case "End":
-                print("aa");
+            case "Pipe":
+                print("End");
+                break;
+            case "Ground":
+                print("Ground");
+                break;
+            case "Score":
+                print("Score");
                 break;
         }
     }
-
-
 
 }

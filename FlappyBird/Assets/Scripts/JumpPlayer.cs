@@ -5,6 +5,7 @@ public class JumpPlayer : CollosionDetector
 
     public Rigidbody2D rigidbodyBird;
     public int jumpHeight = 300;
+    public CollosionDetector collosionDetectorRefrence;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,8 +22,18 @@ public class JumpPlayer : CollosionDetector
     private void Jump(){
         
         //Detects if mouse button 1 is pressed and checks that game has not ended 
-        if(gameState && Input.GetButtonDown("Fire1")){
-            rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);        
+        if(Input.GetButtonDown("Fire1")){
+            if(gameState){
+                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);   
+            }
+            //allows the first button press to begin the game
+            else{
+                //starts the game
+                collosionDetectorRefrence.StartPressed();  
+                //unfreezes the y axis 
+                rigidbodyBird.constraints = RigidbodyConstraints2D.FreezePositionX;
+                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);   
+            }
         }
      
     }

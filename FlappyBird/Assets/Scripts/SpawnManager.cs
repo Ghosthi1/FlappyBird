@@ -12,7 +12,9 @@ public class SpawnManager : CollosionDetector
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SpawnPipe();
+        if(gameState){
+            SpawnPipe();
+        } 
     }
 
     // Update is called once per frame

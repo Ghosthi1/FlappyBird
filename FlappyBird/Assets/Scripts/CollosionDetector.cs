@@ -1,14 +1,15 @@
+using TMPro;
 using UnityEngine;
-using UnityEditor;
 
 public class CollosionDetector : MonoBehaviour
 {
     public int score = 0;
     //true if game should be running 
-    public bool gameState = true;
+    public bool gameState = false;
+    public TextMeshProUGUI scoreUI;
 
     void Start(){
-        gameState = true;
+        gameState = false;
     }
 
     void OnCollisionEnter2D(Collision2D col){
@@ -48,6 +49,9 @@ public class CollosionDetector : MonoBehaviour
     public void ScoreIncrease(){
         //increase score
         score++;
-        print("Score " + score);
+        scoreUI.SetText(score.ToString());
+    }
+    public void StartPressed(){
+            gameState = true;    
     }
 }

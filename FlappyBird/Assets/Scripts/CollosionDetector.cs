@@ -18,6 +18,7 @@ public class CollosionDetector : MonoBehaviour
 
     public bool ground = false;
     public Animation animator;
+    public AudioSource scoreSound;
 
     void Start(){
         gameState = false;
@@ -57,6 +58,7 @@ public class CollosionDetector : MonoBehaviour
     public void ScoreIncrease(){
         //increase score
         score++;
+        scoreSound.Play();
         scoreUI.SetText(score.ToString());
     }
     public void StartPressed(){

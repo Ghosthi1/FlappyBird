@@ -6,7 +6,7 @@ public class JumpPlayer : CollosionDetector
     public Rigidbody2D rigidbodyBird;
     public int jumpHeight = 300;
     public GameObject SpawnManager;
-    public bool gameINT = true;
+    public static bool gameINT = true;
     public GameObject IntroUI;
     public AudioSource jumpNoise;
 
@@ -14,7 +14,7 @@ public class JumpPlayer : CollosionDetector
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-    
+        gameINT = true;
     }
 
     // Update is called once per frame

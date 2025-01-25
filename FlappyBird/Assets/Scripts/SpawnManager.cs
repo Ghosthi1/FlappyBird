@@ -30,7 +30,7 @@ public class SpawnManager : CollosionDetector
     public void SpawnPipe(){
         //checks if a pipe exists if not make one 
         if(CountPipes() == 0){
-            GameObject intclone = Instantiate(pipe, new Vector2(10f,Random.Range(-4f, 2f)),Quaternion.identity);
+            GameObject intclone = Instantiate(pipe, new Vector2(10f,Random.Range(-3f, 1.5f)),Quaternion.identity);
             //adds it to list of clones
             clones.Add(intclone);
         }
@@ -39,7 +39,7 @@ public class SpawnManager : CollosionDetector
     public void CreateClones(){
         //if a pipe has moved far enough and theres not to many spawn more
         if(clones[CountPipes()- 1].transform.position.x < whenSpawnPipe && CountPipes() < maxPipes){
-            GameObject clone = Instantiate(pipe, new Vector2(10f,Random.Range(-4f, 2f)),Quaternion.identity);
+            GameObject clone = Instantiate(pipe, new Vector2(10f,Random.Range(-3f, 1.5f)),Quaternion.identity);
             //adds it to list of clones
             clones.Add(clone);
         } 

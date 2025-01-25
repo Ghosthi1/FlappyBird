@@ -5,7 +5,11 @@ public class JumpPlayer : CollosionDetector
 
     public Rigidbody2D rigidbodyBird;
     public int jumpHeight = 300;
-    public CollosionDetector collosionDetectorRefrence;
+    public GameObject SpawnManager;
+    public bool gameINT = true;
+    public GameObject IntroUI;
+    public AudioSource jumpNoise;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,7 +20,8 @@ public class JumpPlayer : CollosionDetector
     // Update is called once per frame
     void Update()
     {
-        Jump();  
+        Jump();
+  
     }
 
     private void Jump(){
@@ -24,17 +29,31 @@ public class JumpPlayer : CollosionDetector
         //Detects if mouse button 1 is pressed and checks that game has not ended 
         if(Input.GetButtonDown("Fire1")){
             if(gameState){
-                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);   
+                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);
+                jumpNoise.Play();
             }
             //allows the first button press to begin the game
-            else{
+            else if(gameINT){
+                //checks if game start been done 
+                gameINT = false;
+
+                IntroUI.SetActive(false);
+
                 //starts the game
-                collosionDetectorRefrence.StartPressed();  
+                StartPressed();  
+
                 //unfreezes the y axis 
                 rigidbodyBird.constraints = RigidbodyConstraints2D.FreezePositionX;
-                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force);   
+                rigidbodyBird.AddForce(transform.up * jumpHeight, ForceMode2D.Force); 
+
+                //alows spawning of pipes 
+                SpawnManager.SetActive(true);  
+
+                jumpNoise.Play();
             }
         }
      
     }
+
+
 }
